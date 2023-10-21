@@ -5,13 +5,16 @@
   .header {
     display: flex;
     grid-area: header;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
-    padding: 40px 20px;
+    padding: 60px 40px;
+    margin: 80px;
+    /* background-color: chocolate; */
+    width: 2100px;
   }
 
   .header > img {
-    width: 1500px;    
+    width: 1200px;
   }
 
   .header-menu {
@@ -21,31 +24,25 @@
     justify-content: space-evenly;
     width: 950px;
     margin-left: 10px;
+    padding: 20px;
     gap: 10px;
+    /* background-color: BLUE; */
   }
 
   .header-menu a {
-    font-size: 3rem;
+    font-size: 36px;
     line-height: 1.3;
-    padding: 10px 20px;
-    width: 260px;
+    padding: 10px;
+    width: 236px;
     text-align: center;
     display: block;
-    background-color: #141414;
-    color: #fff;
-    border-radius: 8px;
-  }
-
-  .header-menu a:hover {
-    background-color: #030303d5;
-    transition-duration: 0.2s;
+    color: #141414;
   }
 }
 
-
 /* -------------------------------- */
 /* -----MAX-WIDTH: 1920PX ----------*/
-/* -------------------------------- */
+/* ----------PRONTO---------------------- */
 @media (min-width: 1025px) and (max-width: 1920.99px) {
   .header {
     display: flex;
@@ -53,7 +50,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 40px 20px;
-    
+    margin: 48px;
+    /* background-color: chocolate; */
   }
 
   .header > img {
@@ -79,12 +77,10 @@
   }
 }
 
-
 /* -------------------------------- */
 /* -----MAX-WIDTH: 1024PX---- ------*/
 /* -------------------------------- */
 @media (min-width: 769px) and (max-width: 1024.99px) {
-  
   .header {
     display: flex;
     grid-area: header;
@@ -94,7 +90,7 @@
   }
 
   .header > img {
-    width: 525px;    
+    width: 525px;
   }
 
   .header-menu {
@@ -109,7 +105,7 @@
   }
 
   .header-menu a {
-    font-size: 1.0rem;
+    font-size: 1rem;
     line-height: 1.3;
     padding: 8px 18px;
     color: #141414;
@@ -122,12 +118,10 @@
   }
 }
 
-
 /* -------------------------------- */
 /* -----MAX-WIDTH: 768PX -----------*/
 /* -------------------------------- */
 @media (min-width: 426px) and (max-width: 768.99px) {
-  
   .header {
     display: flex;
     grid-area: header;
@@ -157,10 +151,9 @@
     /* background-color: chocolate; */
   }
   .header-menu a {
-    
     align-self: center;
     font-size: 16px;
-    line-height: 1.0;
+    line-height: 1;
     margin-left: 50px;
     padding: 10px 20px;
     color: #141414;
@@ -169,7 +162,7 @@
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 425PX -----------*/
-/* -------------------------------- */
+/* ------------PRONTO-------------------- */
 /* Exibição para celular Samsung J8 */
 @media (min-width: 376px) and (max-width: 425.99px) {
   .header {
@@ -211,7 +204,6 @@
     border-radius: 5px;
   }
 }
-
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 375PX -----------*/

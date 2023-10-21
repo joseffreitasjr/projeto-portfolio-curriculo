@@ -1,8 +1,74 @@
+/* -------------------------------- */
+/* -----MIN-WIDTH: 1921PX---- ------*/
+/* -------------------------------- */
+@media (min-width: 1921px) {
+  .introducao {
+    display: flex;
+    grid-area: introducao;
+    margin: 60px 80px;
+    height: 630px;
+    width: 2180px;
+    /* background-color: aqua; */
+  }
+
+  .introducao > .foto-perfil {
+    width: 606px;
+    height: 630px;
+  }
+
+  .introducao > .objetivo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    width: 2000px;
+    height: 570px;
+    padding: 30px;
+    /* background-color: blue */
+  }
+
+  .introducao > .objetivo > .objetivo-titulo {
+    width: 500px;
+    margin-top: -10px;
+    align-self: center;
+    margin-left: -232px;
+    margin-bottom: 32px;
+  }
+
+  .introducao > .objetivo > .objetivo-descricao {
+    font-size: 6rem;
+    margin-bottom: 60px;
+    align-self: center;
+    position: relative;
+  }
+
+  .introducao > .objetivo > .local {
+    font-size: 3.2rem;
+    line-height: 80px;
+    margin-left: -188px;
+    align-self: center;
+  }
+
+  .introducao .objetivo-descricao::before {
+    content: "";
+    display: block;
+    width: 830px;
+    height: 800px;
+    background: url("../imagens/decoracao/tags.svg") no-repeat center;
+    position: absolute;
+    top: -340px;
+    left: -440px;
+  }
+}
+
+/* -------------------------------- */
+/* -----MAX-WIDTH: 1920PX ----------*/
+/* ----------PRONTO---------------------- */
 @media (min-width: 1025px) and (max-width: 1920.99px) {
   .introducao {
     display: flex;
     grid-area: introducao;
-    /* justify-content: flex-start; */
+    margin: 48px;
     height: 430px;
   }
 
@@ -27,7 +93,7 @@
     width: 300px;
     margin-top: -10px;
     align-self: center;
-    margin-left: -100px;
+    margin-left: -124px;
     margin-bottom: 32px;
   }
 
@@ -60,6 +126,9 @@
   }
 }
 
+/* -------------------------------- */
+/* -----MAX-WIDTH: 425PX -----------*/
+/* ------------PRONTO-------------------- */
 /* Exibição para celular Samsung J8 */
 @media (min-width: 376px) and (max-width: 425.99px) {
   .introducao {
