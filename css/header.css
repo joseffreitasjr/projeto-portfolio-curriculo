@@ -181,13 +181,11 @@
     padding: 10px;
     margin: 10px;
     height: 100px;
-    width: 330px;
+    width: 364px;
     background-color: green;
   }
   .header > img {
-    width: 220px;
-    margin-left: 22px;
-    margin-bottom: 0px;
+    width: 316px;
   }
 
   .header-menu {
@@ -204,7 +202,7 @@
     display: flex;
     justify-content: center;
     /* text-align: center; */
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1;
     /* margin: 12px 120px; */
     width: 80px;
