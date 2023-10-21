@@ -61,7 +61,8 @@
   }
 }
 
-@media (min-width: 376px) and (max-width: 425px) {
+/* Exibição para celular Samsung J8 */
+@media (min-width: 376px) and (max-width: 425.99px) {
   .introducao {
     display: flex;
     grid-area: introducao;
@@ -70,9 +71,10 @@
     
   }
 
-  .introducao > .foto-perfil {
-    width: 406px;
-    height: 430px;
+  .foto-perfil {
+    display: none;
+    /* width: 406px; */
+    /* height: 430px; */
   }
 
   .introducao > .objetivo {

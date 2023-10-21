@@ -167,6 +167,10 @@
   }
 }
 
+/* -------------------------------- */
+/* -----MAX-WIDTH: 425PX -----------*/
+/* -------------------------------- */
+/* Exibição para celular Samsung J8 */
 @media (min-width: 376px) and (max-width: 425.99px) {
   .header {
     display: flex;
