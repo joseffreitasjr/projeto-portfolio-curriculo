@@ -182,7 +182,7 @@
     margin: 9px;
     height: 100px;
     width: 368px;
-    background-color: green;
+    /* background-color: green; */
   }
   .header > img {
     width: 316px;
@@ -196,7 +196,7 @@
     width: 300px;
     height: 20px;
     gap: 10px;
-    background-color: aqua;
+    /* background-color: aqua; */
   }
   .header-menu a {
     display: flex;
