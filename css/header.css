@@ -1,3 +1,6 @@
+/* -------------------------------- */
+/* -----MIN-WIDTH: 1921PX---- ------*/
+/* -------------------------------- */
 @media (min-width: 1921px) {
   .header {
     display: flex;
@@ -39,6 +42,10 @@
   }
 }
 
+
+/* -------------------------------- */
+/* -----MAX-WIDTH: 1920PX ----------*/
+/* -------------------------------- */
 @media (min-width: 1025px) and (max-width: 1920.99px) {
   .header {
     display: flex;
@@ -72,6 +79,10 @@
   }
 }
 
+
+/* -------------------------------- */
+/* -----MAX-WIDTH: 1024PX---- ------*/
+/* -------------------------------- */
 @media (min-width: 769px) and (max-width: 1024.99px) {
   
   .header {
@@ -111,6 +122,10 @@
   }
 }
 
+
+/* -------------------------------- */
+/* -----MAX-WIDTH: 768PX -----------*/
+/* -------------------------------- */
 @media (min-width: 426px) and (max-width: 768.99px) {
   
   .header {
@@ -163,7 +178,7 @@
     margin: 10px;
     height: 100px;
     width: 330px;
-    background-color: chocolate;
+    background-color: green;
   }
   .header > img {
     width: 220px;
@@ -195,6 +210,10 @@
   }
 }
 
+
+/* -------------------------------- */
+/* -----MAX-WIDTH: 375PX -----------*/
+/* -------------------------------- */
 @media (min-width: 321px) and (max-width: 375.99px) {
   .header {
     display: flex;
@@ -206,7 +225,7 @@
     margin: 10px;
     height: 100px;
     width: 330px;
-    background-color: chocolate;
+    background-color: indigo;
   }
   .header > img {
     width: 220px;
@@ -239,7 +258,7 @@
 }
 
 /* -------------------------------- */
-/* -----EXIBIÇÃO MÁXIMO 320PX ------*/
+/* -----MAX-WIDTH: 320PX -----------*/
 /* -------------------------------- */
 @media (max-width: 320.99px) {
   .header {
