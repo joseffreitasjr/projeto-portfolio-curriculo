@@ -155,40 +155,43 @@
 @media (min-width: 376px) and (max-width: 425.99px) {
   .header {
     display: flex;
+    justify-content: center;
+    gap: 5px;
     grid-area: header;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
     padding: 10px;
-    height: 210px;
-    width: 384px;
-    /* background-color: chocolate; */
+    margin: 10px;
+    height: 100px;
+    width: 330px;
+    background-color: chocolate;
   }
   .header > img {
-    width: 350px;
+    width: 220px;
     margin-left: 22px;
     margin-bottom: 0px;
   }
 
   .header-menu {
-    display: block;
+    display: flex;
+    justify-content: space-evenly;
     grid-area: header;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 360px;
-    height: 120px;
-    /* background-color: aqua; */
+    flex-wrap: nowrap;
+    width: 300px;
+    height: 20px;
+    gap: 10px;
+    background-color: aqua;
   }
   .header-menu a {
-    display: block;
-    text-align: center;
-    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    font-size: 12px;
     line-height: 1;
-    margin: 12px 130px;
+    /* margin: 12px 120px; */
     width: 80px;
     padding: 5px 10px;
     color: #141414;
-
+    border-radius: 5px;
   }
 }
 
@@ -235,6 +238,9 @@
   }
 }
 
+/* -------------------------------- */
+/* -----EXIBIÇÃO MÁXIMO 320PX ------*/
+/* -------------------------------- */
 @media (max-width: 320.99px) {
   .header {
     display: flex;
