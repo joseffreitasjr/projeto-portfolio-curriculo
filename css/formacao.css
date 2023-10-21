@@ -1,0 +1,5 @@
+.formacao {
+  display: flex;
+  grid-area: formacao;
+  background-color: violet;
+}

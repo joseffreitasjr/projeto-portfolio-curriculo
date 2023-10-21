@@ -1,0 +1,185 @@
+@media (min-width: 1025px) and (max-width: 1920.99px) {
+  .introducao {
+    display: flex;
+    grid-area: introducao;
+    /* justify-content: flex-start; */
+    height: 430px;
+    
+  }
+
+  .introducao > .foto-perfil {
+    width: 406px;
+    height: 430px;
+  }
+
+  .introducao > .objetivo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1100px;
+    height: 405px;
+    padding: 30px;
+    /* background-color: chocolate; */
+  }
+
+  .introducao > .objetivo > .objetivo-titulo {
+    width: 300px;
+    margin-top: -10px;
+    align-self: center;
+    margin-left: -100px;
+    margin-bottom: 32px;
+  }
+
+  .introducao > .objetivo > .objetivo-descricao {
+    /* background-color: yellow; */
+    /* text-align: left; */
+    font-size: 3.5rem;
+    margin-bottom: 60px;
+    /* margin-left: 50px; */
+    align-self: center;
+    position: relative;
+  }
+
+  .introducao > .objetivo > .local {
+    font-size: 1.875rem;
+    line-height: 80px;
+    margin-left: -100px;
+    align-self: center;
+  }
+
+  .introducao .objetivo-descricao::before {
+    content: "";
+    display: block;
+    width: 130px;
+    height: 100px;
+    background: url("../imagens/decoracao/tags.svg") no-repeat center;
+    position: absolute;
+    top: -16px;
+    left: -90px;
+  }
+}
+
+/* @media (max-width: 1000px) {
+  .introducao h1 {
+    font-size: 3rem;
+  }
+
+  .introducao h1::before {
+    content: "";
+    display: block;
+    width: 80px; 
+    height: 50px; //altura da tag
+    background: url('../imagens/decoração/tags.svg') no-repeat center;
+    position: absolute;
+    top: 2px;
+    left: -68px;
+  }
+} */
+
+/* @media (max-width: 800px) {
+  .introducao {
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+  }
+
+  .introducao h1 {
+    font-size: 2em;
+  }
+
+  .introducao h1::before {
+    content: "";
+    display: block;
+    width: 40px; largura da tag
+    height: 30px; altura da tag
+    background: url('../imagens/decoração/tags.svg') no-repeat center;
+    position: absolute;
+    top: 3px;
+    left: -48px;
+  }
+
+  .objetivo img{
+    padding-bottom: 10px;
+  }
+
+} */
+
+/* @media (max-width: 620px) {
+  .introducao {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .introducao .foto-perfil {
+    display: none;
+  }
+
+  .introducao {
+    padding: 0;
+    place-items: start center;
+  }
+
+  .objetivo {
+    display: grid;
+    height: 250px;
+  }
+  .objetivo h1 {
+    place-self: center;
+  }
+  .objetivo img{
+    padding: 10px 0px;
+  }
+  .objetivo p {
+    margin-bottom: 10px;
+  }
+
+  .introducao h1::before {
+    content: "";
+    display: block;
+    width: 40px; largura da tag
+    height: 30px; altura da tag
+    background: url('../imagens/decoração/tags.svg') no-repeat center;
+    position: absolute;
+    top: 3px;
+    left: -48px;
+  }
+} */
+
+/* @media (max-width: 420px) {
+  .introducao h1 {
+    font-size: 1.5em;
+    justify-items: center;
+  }
+
+  .introducao p {
+    font-size: 1em;
+  }
+
+  .introducao {
+    padding: 0;
+    place-items: start center;
+  }
+
+  .introducao h1::before {
+    content: "";
+    display: none; 
+    background: url('../imagens/decoração/tags.svg') no-repeat center;
+  }
+
+  .objetivo {
+    display: grid;
+    height: 200px;
+  }
+  .objetivo h1 {
+    place-self: center;
+  }
+  .objetivo img{
+    padding: 10px 20px;
+  }
+  .objetivo p {
+    place-self: center;
+  }
+
+  
+} */

@@ -1,0 +1,5 @@
+.contato {
+  display: flex;
+  grid-area: contato;
+  background-color: black;
+}
