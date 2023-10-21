@@ -175,13 +175,13 @@
   .header {
     display: flex;
     justify-content: center;
-    gap: 5px;
+    gap: 4px;
     grid-area: header;
     flex-wrap: wrap;
     padding: 10px;
-    margin: 10px;
+    margin: 9px;
     height: 100px;
-    width: 364px;
+    width: 368px;
     background-color: green;
   }
   .header > img {
