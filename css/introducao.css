@@ -189,6 +189,60 @@
   }
 }
 
+/* -------------------------------- */
+/* -----MAX-WIDTH: 320PX -----------*/
+/* -------------------------------- */
+@media (max-width: 320.99px) {
+  .introducao {
+    display: flex;
+    grid-area: introducao;
+    flex-wrap: wrap;
+    height: 310px;
+    /* background-color: chocolate; */
+    margin: 8px;
+  }
+  .introducao > .foto-perfil {
+    display: none;
+  }
+
+  .introducao > .objetivo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 370px;
+    height: 290px;
+    padding: 10px;
+    /* background-color: blue; */
+  }
+
+  .introducao > .objetivo > .objetivo-titulo {
+    width: 140px;
+    margin-top: 12px;
+    align-self: center;
+    margin-bottom: 40px;
+  }
+
+  .introducao > .objetivo > .objetivo-descricao {
+    font-size: 32px;
+    margin-bottom: 40px;
+    align-self: center;
+    text-align: center;
+  }
+
+  .introducao > .objetivo > .local {
+    font-size: 18px;
+    line-height: 40px;
+    margin-left: 0px;
+    align-self: center;
+  }
+
+  .introducao .objetivo-descricao::before {
+    display: none;
+  }
+}
+
 /* @media (max-width: 1000px) {
   .introducao h1 {
     font-size: 3rem;

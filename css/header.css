@@ -1,16 +1,15 @@
 /* -------------------------------- */
 /* -----MIN-WIDTH: 1921PX---- ------*/
-/* -------------------------------- */
+/* ------------PRONTO-------------- */
 @media (min-width: 1921px) {
   .header {
     display: flex;
     grid-area: header;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
     padding: 60px 40px;
     margin: 80px;
-    /* background-color: chocolate; */
-    width: 2100px;
+    width: 2300px;
   }
 
   .header > img {
@@ -21,7 +20,7 @@
     display: flex;
     grid-area: header;
     flex-wrap: nowrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     width: 950px;
     margin-left: 10px;
     padding: 20px;
@@ -258,19 +257,17 @@
   .header {
     display: flex;
     justify-content: center;
-    gap: 5px;
     grid-area: header;
     flex-wrap: wrap;
     padding: 10px;
-    margin: 10px;
-    height: 100px;
-    width: 330px;
-    background-color: red;
+    margin: 8px;
+    height: 80px;
+    width: 262px;
+    /* background-color: red; */
   }
+
   .header > img {
-    width: 220px;
-    margin-left: 22px;
-    margin-bottom: 0px;
+    width: 240px;
   }
 
   .header-menu {
@@ -278,21 +275,20 @@
     justify-content: space-evenly;
     grid-area: header;
     flex-wrap: nowrap;
-    width: 300px;
+    width: 248px;
     height: 20px;
-    gap: 10px;
-    background-color: aqua;
+    margin-top: 24px;
+    /* background-color: aqua; */
   }
+
   .header-menu a {
     display: flex;
     justify-content: center;
-    /* text-align: center; */
-    font-size: 12px;
+    font-size: 13px;
     line-height: 1;
-    /* margin: 12px 120px; */
+    margin-left: 12px;
     width: 80px;
-    padding: 5px 10px;
+    padding: 5px 5px;
     color: #141414;
-    border-radius: 5px;
   }
 }
