@@ -138,7 +138,7 @@
     margin: 0 22px;
     height: 330px;
     width: 795px;
-    background-color: chocolate;
+    /* background-color: chocolate; */
   }
 
   .introducao > .foto-perfil {
@@ -153,25 +153,22 @@
     justify-content: center;
     align-items: center;
     width: 1100px;
-    height: 405px;
+    height: 270px;
     padding: 30px;
-    /* background-color: chocolate; */
+    /* background-color: blue; */
   }
 
   .introducao > .objetivo > .objetivo-titulo {
     width: 232px;
-    margin-top: -90px;
+    margin-top: -20px;
     align-self: center;
-    margin-left: -128px;
+    margin-left: -108px;
     margin-bottom: 32px;
   }
 
   .introducao > .objetivo > .objetivo-descricao {
-    /* background-color: yellow; */
-    /* text-align: left; */
-    font-size: 3rem;
+    font-size: 2.8rem;
     margin-bottom: 60px;
-    /* margin-left: 50px; */
     align-self: center;
     position: relative;
   }
@@ -180,19 +177,19 @@
     font-size: 1.3rem;
     line-height: 80px;
     margin-top: -50px;
-    margin-left: -140px;
+    margin-left: -116px;
     align-self: center;
   }
 
   .introducao .objetivo-descricao::before {
     content: "";
     display: block;
-    width: 130px;
-    height: 100px;
+    width: 110px;
+    height: 80px;
     background: url("../imagens/decoracao/tags.svg") no-repeat center;
     position: absolute;
-    top: -16px;
-    left: -90px;
+    top: -14px;
+    left: -80px;
   }
 } 
 

@@ -130,7 +130,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 30px 10px;
-    background-color: aqua;
+    /* background-color: aqua; */
     margin: 26px;
     width: 772px;
   }
@@ -148,7 +148,7 @@
     width: 300px;
     margin-left: 6px;
     gap: 6px;
-    background-color: yellowgreen;
+    /* background-color: yellowgreen; */
   }
 
   .header-menu a {
