@@ -132,7 +132,7 @@
     padding: 30px 10px;
     background-color: aqua;
     margin: 26px;
-    width: 795px;
+    width: 772px;
   }
 
 
@@ -145,7 +145,7 @@
     grid-area: header;
     flex-wrap: nowrap;
     justify-content: space-evenly;
-    width: 340px;
+    width: 300px;
     margin-left: 6px;
     gap: 6px;
     background-color: yellowgreen;
@@ -240,8 +240,8 @@
     padding: 10px;
     margin: 8px;
     height: 100px;
-    width: 370px;
-    /* background-color: green; */
+    width: 376px;
+    background-color: green;
   }
   .header > img {
     width: 316px;
