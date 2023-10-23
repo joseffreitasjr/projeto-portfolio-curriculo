@@ -129,7 +129,9 @@
 /* -------------------------------- */
 /* -----MAX-WIDTH: 964PX---- ------*/
 /* -------------------------------- */
-@media (min-width: 769px) and (max-width: 964.99px) {
+/* @media (min-width: 769px) and (max-width: 964.99px) { */
+  
+@media (min-width: 769px) and (max-width: 870.99px) {
   .introducao {
     display: flex;
     grid-area: introducao;
