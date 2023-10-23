@@ -129,9 +129,10 @@
     grid-area: header;
     justify-content: space-between;
     align-items: center;
-    padding: 40px 20px;
+    padding: 30px 10px;
     background-color: aqua;
-    margin: 24px;
+    margin: 26px;
+    width: 860px;
   }
 
 
