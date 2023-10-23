@@ -238,10 +238,10 @@
     grid-area: header;
     flex-wrap: wrap;
     padding: 10px;
-    margin: 9px;
+    margin: 8px;
     height: 100px;
-    width: 368px;
-    /* background-color: green; */
+    width: 340px;
+    background-color: green;
   }
   .header > img {
     width: 316px;
