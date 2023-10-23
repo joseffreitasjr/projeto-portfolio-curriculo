@@ -241,7 +241,7 @@
     margin: 8px;
     height: 100px;
     width: 376px;
-    background-color: green;
+    /* background-color: green; */
   }
   .header > img {
     width: 316px;
