@@ -86,7 +86,10 @@
     justify-content: space-between;
     align-items: center;
     padding: 40px 20px;
+    background-color: chocolate;
+    margin: 24px;
   }
+
 
   .header > img {
     width: 525px;
@@ -97,10 +100,10 @@
     grid-area: header;
     flex-wrap: nowrap;
     justify-content: space-evenly;
-    width: 400px;
+    width: 368px;
     margin-left: 10px;
     gap: 10px;
-    /* background-color: chocolate; */
+    background-color: blue;
   }
 
   .header-menu a {
@@ -116,6 +119,25 @@
     transition-duration: 0.2s;
   }
 }
+
+/* .header-menu {
+  display: flex;
+  grid-area: header;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  width: 500px;
+  margin-left: 10px;
+  gap: 10px;
+} */
+
+/* .header-menu a {
+  font-size: 1.5rem;
+  line-height: 1.3;
+  padding: 10px 20px;
+  color: #141414;
+  display: block;
+} */
+
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 768PX -----------*/
