@@ -132,12 +132,12 @@
     padding: 30px 10px;
     background-color: aqua;
     margin: 26px;
-    width: 860px;
+    width: 795px;
   }
 
 
   .header > img {
-    width: 400px;
+    width: 420px;
   }
 
   .header-menu {
@@ -145,9 +145,9 @@
     grid-area: header;
     flex-wrap: nowrap;
     justify-content: space-evenly;
-    width: 368px;
-    margin-left: 10px;
-    gap: 10px;
+    width: 340px;
+    margin-left: 6px;
+    gap: 6px;
     background-color: yellowgreen;
   }
 
