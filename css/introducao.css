@@ -127,6 +127,72 @@
 }
 
 /* -------------------------------- */
+/* -----MAX-WIDTH: 964PX---- ------*/
+/* -------------------------------- */
+@media (min-width: 769px) and (max-width: 964.99px) {
+  .introducao {
+    display: flex;
+    grid-area: introducao;
+    margin: 0 22px;
+    height: 430px;
+  }
+
+  .introducao > .foto-perfil {
+    width: 306px;
+    height: 330px;
+  }
+
+  .introducao > .objetivo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1100px;
+    height: 405px;
+    padding: 30px;
+    /* background-color: chocolate; */
+  }
+
+  .introducao > .objetivo > .objetivo-titulo {
+    width: 240px;
+    margin-top: -90px;
+    align-self: center;
+    margin-left: -132px;
+    margin-bottom: 32px;
+  }
+
+  .introducao > .objetivo > .objetivo-descricao {
+    /* background-color: yellow; */
+    /* text-align: left; */
+    font-size: 3rem;
+    margin-bottom: 60px;
+    /* margin-left: 50px; */
+    align-self: center;
+    position: relative;
+  }
+
+  .introducao > .objetivo > .local {
+    font-size: 1.3rem;
+    line-height: 80px;
+    margin-left: -140px;
+    align-self: center;
+  }
+
+  .introducao .objetivo-descricao::before {
+    content: "";
+    display: block;
+    width: 130px;
+    height: 100px;
+    background: url("../imagens/decoracao/tags.svg") no-repeat center;
+    position: absolute;
+    top: -16px;
+    left: -90px;
+  }
+} 
+
+
+/* -------------------------------- */
 /* -----MAX-WIDTH: 425PX -----------*/
 /* ------------PRONTO-------------------- */
 /* Exibição para celular Samsung J8 */
