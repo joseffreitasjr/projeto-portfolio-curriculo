@@ -129,9 +129,7 @@
 /* -------------------------------- */
 /* -----MAX-WIDTH: 964PX---- ------*/
 /* -------------------------------- */
-/* @media (min-width: 769px) and (max-width: 964.99px) { */
-  
-@media (min-width: 769px) and (max-width: 870.99px) {
+@media (min-width: 769px) and (max-width: 964.99px) {
   .introducao {
     display: flex;
     grid-area: introducao;
@@ -178,6 +176,71 @@
     line-height: 80px;
     margin-top: -50px;
     margin-left: -116px;
+    align-self: center;
+  }
+
+  .introducao .objetivo-descricao::before {
+    content: "";
+    display: block;
+    width: 110px;
+    height: 80px;
+    background: url("../imagens/decoracao/tags.svg") no-repeat center;
+    position: absolute;
+    top: -14px;
+    left: -80px;
+  }
+} 
+
+/* -------------------------------- */
+/* -----MAX-WIDTH: 870PX------------*/
+/* -------------------------------- */
+@media (min-width: 769px) and (max-width: 870.99px) {
+  .introducao {
+    display: flex;
+    grid-area: introducao;
+    margin: 0 22px;
+    height: 290px;
+    width: 795px;
+    /* background-color: chocolate; */
+  }
+
+  .introducao > .foto-perfil {
+    width: 366px;
+    height: 290px;
+  }
+
+  .introducao > .objetivo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1100px;
+    height: 230px;
+    padding: 30px;
+    /* background-color: blue; */
+  }
+
+  .introducao > .objetivo > .objetivo-titulo {
+    width: 212px;
+    margin-top: -20px;
+    align-self: center;
+    margin-left: -94px;
+    margin-bottom: 12px;
+  }
+
+  .introducao > .objetivo > .objetivo-descricao {
+    font-size: 2.5rem;
+    margin-bottom: 60px;
+    align-self: center;
+    position: relative;
+  }
+
+  .introducao > .objetivo > .local {
+    font-size: 1.28rem;
+    line-height: 80px;
+    margin-top: -50px;
+    margin-left: -90px;
     align-self: center;
   }
 
