@@ -50,14 +50,7 @@
   }
 
   .introducao .objetivo-descricao::before {
-    content: "";
-    display: block;
-    width: 830px;
-    height: 800px;
-    background: url("../imagens/decoracao/tags.svg") no-repeat center;
-    position: absolute;
-    top: -340px;
-    left: -440px;
+    display: none;
   }
 }
 
@@ -450,6 +443,60 @@
 }
 
 /* -------------------------------- */
+/* -----MAX-WIDTH: 375PX -----------*/
+/* -------------------------------- */
+@media (min-width: 321px) and (max-width: 375.99px) {
+  .introducao {
+    display: flex;
+    grid-area: introducao;
+    flex-wrap: wrap;
+    height: 310px;
+    /* background-color: chocolate; */
+    margin: 0px 9px;
+  }
+  .introducao > .foto-perfil {
+    display: none;
+  }
+
+  .introducao > .objetivo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 370px;
+    height: 290px;
+    padding: 10px;
+    /* background-color: blue; */
+  }
+
+  .introducao > .objetivo > .objetivo-titulo {
+    width: 160px;
+    margin-top: 12px;
+    align-self: center;
+    margin-bottom: 24px;
+  }
+
+  .introducao > .objetivo > .objetivo-descricao {
+    font-size: 38px;
+    margin-bottom: 60px;
+    align-self: center;
+    text-align: center;
+  }
+
+  .introducao > .objetivo > .local {
+    font-size: 18px;
+    line-height: 40px;
+    align-self: center;
+  }
+
+  .introducao .objetivo-descricao::before {
+    display: none;
+  }
+}
+
+
+/* -------------------------------- */
 /* -----MAX-WIDTH: 320PX -----------*/
 /* -------------------------------- */
 @media (max-width: 320.99px) {
@@ -459,7 +506,7 @@
     flex-wrap: wrap;
     height: 310px;
     /* background-color: chocolate; */
-    margin: 8px;
+    margin: 0px 9px;
   }
   .introducao > .foto-perfil {
     display: none;
@@ -481,12 +528,12 @@
     width: 140px;
     margin-top: 12px;
     align-self: center;
-    margin-bottom: 40px;
+    margin-bottom: 24px;
   }
 
   .introducao > .objetivo > .objetivo-descricao {
-    font-size: 32px;
-    margin-bottom: 40px;
+    font-size: 34px;
+    margin-bottom: 60px;
     align-self: center;
     text-align: center;
   }
@@ -494,7 +541,6 @@
   .introducao > .objetivo > .local {
     font-size: 18px;
     line-height: 40px;
-    margin-left: 0px;
     align-self: center;
   }
 
@@ -502,126 +548,3 @@
     display: none;
   }
 }
-
-/* @media (max-width: 1000px) {
-  .introducao h1 {
-    font-size: 3rem;
-  }
-
-  .introducao h1::before {
-    content: "";
-    display: block;
-    width: 80px; 
-    height: 50px; //altura da tag
-    background: url('../imagens/decoração/tags.svg') no-repeat center;
-    position: absolute;
-    top: 2px;
-    left: -68px;
-  }
-} */
-
-/* @media (max-width: 800px) {
-  .introducao {
-    grid-template-columns: 1fr 1fr;
-    gap: 80px;
-  }
-
-  .introducao h1 {
-    font-size: 2em;
-  }
-
-  .introducao h1::before {
-    content: "";
-    display: block;
-    width: 40px; largura da tag
-    height: 30px; altura da tag
-    background: url('../imagens/decoração/tags.svg') no-repeat center;
-    position: absolute;
-    top: 3px;
-    left: -48px;
-  }
-
-  .objetivo img{
-    padding-bottom: 10px;
-  }
-
-} */
-
-/* @media (max-width: 620px) {
-  .introducao {
-    grid-template-columns: 1fr;
-    justify-items: center;
-  }
-
-  .introducao .foto-perfil {
-    display: none;
-  }
-
-  .introducao {
-    padding: 0;
-    place-items: start center;
-  }
-
-  .objetivo {
-    display: grid;
-    height: 250px;
-  }
-  .objetivo h1 {
-    place-self: center;
-  }
-  .objetivo img{
-    padding: 10px 0px;
-  }
-  .objetivo p {
-    margin-bottom: 10px;
-  }
-
-  .introducao h1::before {
-    content: "";
-    display: block;
-    width: 40px; largura da tag
-    height: 30px; altura da tag
-    background: url('../imagens/decoração/tags.svg') no-repeat center;
-    position: absolute;
-    top: 3px;
-    left: -48px;
-  }
-} */
-
-/* @media (max-width: 420px) {
-  .introducao h1 {
-    font-size: 1.5em;
-    justify-items: center;
-  }
-
-  .introducao p {
-    font-size: 1em;
-  }
-
-  .introducao {
-    padding: 0;
-    place-items: start center;
-  }
-
-  .introducao h1::before {
-    content: "";
-    display: none; 
-    background: url('../imagens/decoração/tags.svg') no-repeat center;
-  }
-
-  .objetivo {
-    display: grid;
-    height: 200px;
-  }
-  .objetivo h1 {
-    place-self: center;
-  }
-  .objetivo img{
-    padding: 10px 20px;
-  }
-  .objetivo p {
-    place-self: center;
-  }
-
-  
-} */
