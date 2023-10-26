@@ -127,6 +127,71 @@
 }
 
 /* -------------------------------- */
+/* -----MAX-WIDTH: 1024PX---- ------*/
+/* -------------------------------- */
+@media (min-width: 965px) and (max-width: 1024.99px) {
+  .introducao {
+    display: flex;
+    grid-area: introducao;
+    margin: 0 22px;
+    height: 400px;
+    width: 955px;
+    /* background-color: chocolate; */
+  }
+
+  .introducao > .foto-perfil {
+    width: 376px;
+    height: 400px;
+  }
+
+  .introducao > .objetivo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1100px;
+    height: 270px;
+    padding: 30px;
+    /* background-color: blue; */
+  }
+
+  .introducao > .objetivo > .objetivo-titulo {
+    width: 232px;
+    margin-top: -20px;
+    align-self: center;
+    margin-left: -108px;
+    margin-bottom: 32px;
+  }
+
+  .introducao > .objetivo > .objetivo-descricao {
+    font-size: 2.8rem;
+    margin-bottom: 60px;
+    align-self: center;
+    position: relative;
+  }
+
+  .introducao > .objetivo > .local {
+    font-size: 1.3rem;
+    line-height: 80px;
+    margin-top: -50px;
+    margin-left: -116px;
+    align-self: center;
+  }
+
+  .introducao .objetivo-descricao::before {
+    content: "";
+    display: block;
+    width: 110px;
+    height: 80px;
+    background: url("../imagens/decoracao/tags.svg") no-repeat center;
+    position: absolute;
+    top: -14px;
+    left: -80px;
+  }
+}
+
+/* -------------------------------- */
 /* -----MAX-WIDTH: 964PX---- ------*/
 /* -------------------------------- */
 @media (min-width: 769px) and (max-width: 964.99px) {
@@ -189,7 +254,7 @@
     top: -14px;
     left: -80px;
   }
-} 
+}
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 870PX------------*/
@@ -254,8 +319,72 @@
     top: -14px;
     left: -80px;
   }
-} 
+}
 
+
+/* -------------------------------- */
+/* -----MAX-WIDTH: 768PX -----------*/
+/* -------------------------------- */
+@media (min-width: 426px) and (max-width: 768.99px) {
+  .introducao {
+    display: flex;
+    grid-area: introducao;
+    height: 290px;
+    width: 720px;
+    margin: 0 20px;
+  }
+
+  .introducao > .foto-perfil {
+    width: 336px;
+    height: 260px;
+  }
+
+  .introducao > .objetivo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 1100px;
+    height: 200px;
+    padding: 30px;
+    /* background-color: aqua; */
+  }
+
+  .introducao > .objetivo > .objetivo-titulo {
+    width: 176px;
+    margin-top: -20px;
+    align-self: center;
+    margin-left: -46px;
+    margin-bottom: 14px;
+  }
+
+  .introducao > .objetivo > .objetivo-descricao {
+    font-size: 1.8rem;
+    margin-bottom: 60px;
+    align-self: center;
+    position: relative;
+  }
+
+  .introducao > .objetivo > .local {
+    font-size: 1.18rem;
+    line-height: 80px;
+    margin-top: -50px;
+    margin-left: -30px;
+    align-self: center;
+  }
+
+  .introducao .objetivo-descricao::before {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 60px;
+    background: url("../imagens/decoracao/tags.svg") no-repeat center;
+    position: absolute;
+    top: -10px;
+    left: -80px;
+  }
+}
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 425PX -----------*/
@@ -294,7 +423,7 @@
   }
 
   .introducao > .objetivo > .objetivo-descricao {
-    font-size: 36px;
+    font-size: 40px;
     margin-bottom: 60px;
     align-self: center;
     text-align: center;
@@ -311,8 +440,8 @@
   .introducao .objetivo-descricao::before {
     content: "";
     display: none;
-    width: 36px;
-    height: 36px;
+    width: 30px;
+    height: 30px;
     background: url("../imagens/decoracao/tags.svg") no-repeat center;
     position: absolute;
     top: 4px;
