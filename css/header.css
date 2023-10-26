@@ -1,140 +1,98 @@
 /* -------------------------------- */
+/* -----MAX-WIDTH: 1920PX ----------*/
+/* ----------PRONTO---------------------- */
+/* @media (min-width: 1025px) and (max-width: 1920.99px) { */
+
+.header {
+  display: flex;
+  grid-area: header;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 20px;
+  margin: 3rem;
+}
+
+.header img {
+  width: 43.75rem;
+}
+
+.header-menu {
+  display: flex;
+  grid-area: header;
+  justify-content: space-evenly;
+  width: 31.25rem;
+  margin-left: 10px;
+  gap: 10px;
+}
+
+.header-menu a {
+  display: block;
+  font-size: 1.5rem;
+  line-height: 1.3;
+  padding: 10px;
+  color: #141414;
+}
+
+/* -------------------------------- */
 /* -----MIN-WIDTH: 1921PX---- ------*/
 /* ------------PRONTO-------------- */
 @media (min-width: 1921px) {
   .header {
-    display: flex;
-    grid-area: header;
-    justify-content: space-between;
-    align-items: center;
     padding: 60px 40px;
-    margin: 80px;
-    width: 2300px;
+    margin: 5rem;
   }
 
-  .header > img {
-    width: 1200px;
+  .header img {
+    width: 75rem;
   }
 
   .header-menu {
-    display: flex;
-    grid-area: header;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    width: 950px;
-    margin-left: 10px;
+    width: 59.375rem;
     padding: 20px;
-    gap: 10px;
-    /* background-color: BLUE; */
   }
 
   .header-menu a {
-    font-size: 36px;
-    line-height: 1.3;
-    padding: 10px;
-    width: 236px;
-    text-align: center;
-    display: block;
-    color: #141414;
-  }
-}
-
-/* -------------------------------- */
-/* -----MAX-WIDTH: 1920PX ----------*/
-/* ----------PRONTO---------------------- */
-@media (min-width: 1025px) and (max-width: 1920.99px) {
-  .header {
-    display: flex;
-    grid-area: header;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px 20px;
-    margin: 48px;
-    /* background-color: chocolate; */
-  }
-
-  .header > img {
-    width: 700px;
-  }
-
-  .header-menu {
-    display: flex;
-    grid-area: header;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-    width: 500px;
-    margin-left: 10px;
-    gap: 10px;
-  }
-
-  .header-menu a {
-    font-size: 1.5rem;
-    line-height: 1.3;
-    padding: 10px 20px;
-    color: #141414;
-    display: block;
+    font-size: 2.7rem;
   }
 }
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 1024PX---- ------*/
 /* -------------------------------- */
-@media (min-width: 965px) and (max-width: 1024.99px) {
+/* @media (min-width: 965px) and (max-width: 1024.99px) { */
+@media (max-width: 1024px) {
   .header {
-    display: flex;
-    grid-area: header;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px 20px;
-    /* background-color: chocolate; */
-    margin: 24px;
+    padding: 36px 18px;
+    margin: 2rem;
   }
 
-
-  .header > img {
-    width: 480px;
+  .header img {
+    width: 32rem;
   }
 
   .header-menu {
-    display: flex;
-    grid-area: header;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-    width: 368px;
-    margin-left: 10px;
-    gap: 10px;
-    /* background-color: blue; */
+    width: 23rem;
   }
 
   .header-menu a {
-    font-size: 18px;
-    line-height: 1.3;
-    padding: 8px 18px;
-    color: #141414;
-    display: block;
-  }
-
-  .header-menu a:hover {
-    background-color: #030303d5;
-    transition-duration: 0.2s;
+    font-size: 1.2rem;
   }
 }
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 964PX---- ------*/
 /* -------------------------------- */
-@media (min-width: 871px) and (max-width: 964.99px) {
+/* @media (min-width: 871px) and (max-width: 964.99px) {
   .header {
     display: flex;
     grid-area: header;
     justify-content: space-between;
     align-items: center;
     padding: 30px 10px;
-    /* background-color: aqua; */
+    /* background-color: aqua; 
     margin: 26px;
     width: 772px;
   }
-
 
   .header > img {
     width: 420px;
@@ -148,7 +106,7 @@
     width: 320px;
     margin-left: 6px;
     gap: 4px;
-    /* background-color: yellowgreen; */
+    /* background-color: yellowgreen; 
   }
 
   .header-menu a {
@@ -158,23 +116,22 @@
     color: #141414;
     display: block;
   }
-}
+} */
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 870PX---- ------*/
 /* -------------------------------- */
-@media (min-width: 769px) and (max-width: 870.99px) {
+/* @media (min-width: 769px) and (max-width: 870.99px) {
   .header {
     display: flex;
     grid-area: header;
     justify-content: space-between;
     align-items: center;
     padding: 30px 10px;
-    /* background-color: aqua; */
+    /* background-color: aqua; 
     margin: 26px;
     width: 772px;
   }
-
 
   .header > img {
     width: 420px;
@@ -188,7 +145,7 @@
     width: 300px;
     margin-left: 6px;
     gap: 6px;
-    /* background-color: yellowgreen; */
+    /* background-color: yellowgreen; 
   }
 
   .header-menu a {
@@ -198,202 +155,108 @@
     color: #141414;
     display: block;
   }
-}
+} */
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 768PX -----------*/
 /* -------------------------------- */
-@media (min-width: 426px) and (max-width: 768.99px) {
+/* @media (min-width: 426px) and (max-width: 768px) { */
+@media (max-width: 768px) {
   .header {
-    display: flex;
-    grid-area: header;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
     padding: 20px 10px;
-    margin: 20px;
-    /* width: 700px; */
+    margin: 1.5rem;
     /* background-color: aquamarine; */
-    height: 100px;
   }
 
-  .header > img {
-    width: 400px;
+  .header img {
+    width: 30rem;
     margin-bottom: 20px;
     margin-left: 52px;
   }
   .header-menu {
-    display: flex;
-    grid-area: header;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-content: center;
-    width: 400px;
-    height: 40px;
-    gap: 20px;
+    width: 21rem;
     margin-left: 50px;
-    /* background-color: chocolate; */
   }
   .header-menu a {
-    font-size: 15px;
+    font-size: 1.1rem;
     line-height: 1;
-    /* margin-left: 50px; */
-    /* padding: 10px 0px; */
-    color: #141414;
   }
 }
-
-
-
-
-/* .header > img {
-  width: 420px;
-} */
-
-/* .header-menu {
-  display: flex;
-  grid-area: header;
-  flex-wrap: nowrap;
-  justify-content: space-evenly;
-  width: 300px;
-  margin-left: 6px;
-  gap: 6px;
-  background-color: yellowgreen;
-} */
-
-/* .header-menu a {
-  font-size: 14px;
-  line-height: 1.3;
-  padding: 8px 18px;
-  color: #141414;
-  display: block;
-} */
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 425PX -----------*/
 /* ------------PRONTO-------------------- */
 /* Exibição para celular Samsung J8 */
-@media (min-width: 376px) and (max-width: 425.99px) {
+/* @media (min-width: 376px) and (max-width: 425.99px) { */
+@media (max-width: 425.99px) {
   .header {
-    display: flex;
-    justify-content: center;
-    gap: 4px;
-    grid-area: header;
-    flex-wrap: wrap;
-    padding: 10px;
-    margin: 8px;
-    height: 100px;
-    width: 376px;
-    /* background-color: green; */
+    padding: 18px 8px;
+    margin: 0.5rem;
   }
-  .header > img {
-    width: 316px;
+
+  .header img {
+    width: 20rem;
+    margin-left: 8px;
   }
 
   .header-menu {
-    display: flex;
-    justify-content: space-evenly;
-    grid-area: header;
-    flex-wrap: nowrap;
-    width: 300px;
-    height: 20px;
-    gap: 10px;
-    /* background-color: aqua; */
+    width: 18.75rem;
+    margin-left: 8px;
   }
+
   .header-menu a {
-    display: flex;
-    justify-content: center;
-    /* text-align: center; */
-    font-size: 14px;
+    font-size: 1rem;
     line-height: 1;
-    /* margin: 12px 120px; */
-    width: 80px;
-    padding: 5px 10px;
-    color: #141414;
-    border-radius: 5px;
   }
 }
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 375PX -----------*/
 /* -------------------------------- */
-@media (min-width: 321px) and (max-width: 375.99px) {
+/* @media (min-width: 321px) and (max-width: 375.99px) { */
+@media (max-width: 375.99px) {
   .header {
-    display: flex;
-    justify-content: center;
-    gap: 5px;
-    grid-area: header;
-    flex-wrap: wrap;
-    padding: 10px;
-    margin: 10px;
-    height: 100px;
-    /* background-color: indigo; */
+    padding: 16px 6px;
+    /* background-color: aqua; */
   }
 
-  .header > img {
-    width: 280px;
-    margin-left: 8px;
+  .header img {
+    width: 18rem;
   }
 
   .header-menu {
-    display: flex;
-    justify-content: space-evenly;
-    grid-area: header;
-    flex-wrap: nowrap;
-    width: 300px;
-    height: 20px;
-    gap: 10px;
-    /* background-color: aqua; */
+    width: 18.75rem;
+    margin-left: 2px;
+    /* background-color: red; */
   }
   .header-menu a {
-    display: flex;
-    justify-content: center;
-    font-size: 14px;
+    font-size: 0.89rem;
     line-height: 1;
-    width: 80px;
-    padding: 5px 10px;
-    color: #141414;
   }
 }
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 320PX -----------*/
 /* -------------------------------- */
-@media (max-width: 320.99px) {
+@media (max-width: 320px) {
   .header {
-    display: flex;
-    justify-content: center;
-    grid-area: header;
-    flex-wrap: wrap;
-    padding: 10px;
+    padding: 15px 10px;
     margin: 8px;
-    height: 80px;
-    /* background-color: red; */
-  }  
+  }
 
-  .header > img {
-    width: 260px;
+  .header img {
+    width: 17rem;
   }
 
   .header-menu {
-    display: flex;
-    justify-content: space-evenly;
-    grid-area: header;
-    flex-wrap: nowrap;
-    width: 248px;
-    height: 20px;
-    margin-top: 14px;
-    /* background-color: aqua; */
+    width: 15rem;
   }
 
   .header-menu a {
-    display: flex;
-    justify-content: center;
-    font-size: 13px;
+    font-size: 0.880rem;
     line-height: 1;
-    margin-left: 12px;
-    width: 80px;
-    padding: 5px 5px;
-    color: #141414;
   }
 }
