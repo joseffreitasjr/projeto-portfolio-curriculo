@@ -9,7 +9,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  margin: 2rem;
+  margin: 2rem 2rem 0.125rem 2rem;
 }
 
 .header img {
@@ -39,7 +39,7 @@
 @media (min-width: 1921px) {
   .header {
     padding: 40px;
-    margin: 4rem;
+    margin: 3rem 3rem 0.125rem 3rem;
   }
 
   .header img {
@@ -115,7 +115,7 @@
 @media (max-width: 425.99px) {
   .header {
     padding: 18px 8px;
-    margin: 0.5rem;
+    margin: 8px;
   }
 
   .header img {

@@ -1,14 +1,66 @@
 /* -------------------------------- */
+/* -----MAX-WIDTH: 1920PX ----------*/
+/* ----------PRONTO---------------------- */
+/* @media (min-width: 1025px) and (max-width: 1920.99px) { */
+.introducao {
+  display: flex;
+  grid-area: introducao;
+  margin: 1.875rem;
+  height: 430px;
+}
+
+.introducao > .foto-perfil {
+  width: 406px;
+  height: 430px;
+}
+
+.introducao > .objetivo {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1100px;
+  height: 405px;
+  padding: 30px;
+}
+
+.introducao > .objetivo > .objetivo-titulo {
+  width: 300px;
+  margin: -10px 0 32px -124px;
+}
+
+.introducao > .objetivo > .objetivo-descricao {
+  font-size: 3.5rem;
+  margin-bottom: 60px;
+  position: relative;
+}
+
+.introducao > .objetivo > .local {
+  font-size: 30px;
+  line-height: 80px;
+  margin-left: -100px;
+}
+
+.introducao .objetivo-descricao::before {
+  content: "";
+  display: block;
+  width: 130px;
+  height: 100px;
+  background: url("../imagens/decoracao/tags.svg") no-repeat center;
+  position: absolute;
+  top: -18px;
+  left: -94px;
+}
+/* } */
+
+/* -------------------------------- */
 /* -----MIN-WIDTH: 1921PX---- ------*/
 /* -------------------------------- */
 @media (min-width: 1921px) {
   .introducao {
-    display: flex;
-    grid-area: introducao;
-    margin: 60px 80px;
+    margin: 48px;
     height: 630px;
-    width: 2180px;
-    /* background-color: aqua; */
   }
 
   .introducao > .foto-perfil {
@@ -17,29 +69,17 @@
   }
 
   .introducao > .objetivo {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
     width: 2000px;
     height: 570px;
-    padding: 30px;
-    /* background-color: blue */
   }
 
   .introducao > .objetivo > .objetivo-titulo {
     width: 500px;
-    margin-top: -10px;
-    align-self: center;
-    margin-left: -232px;
-    margin-bottom: 32px;
+    margin: -10px 0 32px -232px;
   }
 
   .introducao > .objetivo > .objetivo-descricao {
     font-size: 6rem;
-    margin-bottom: 60px;
-    align-self: center;
-    position: relative;
   }
 
   .introducao > .objetivo > .local {
@@ -55,81 +95,13 @@
 }
 
 /* -------------------------------- */
-/* -----MAX-WIDTH: 1920PX ----------*/
-/* ----------PRONTO---------------------- */
-@media (min-width: 1025px) and (max-width: 1920.99px) {
-  .introducao {
-    display: flex;
-    grid-area: introducao;
-    margin: 48px;
-    height: 430px;
-  }
-
-  .introducao > .foto-perfil {
-    width: 406px;
-    height: 430px;
-  }
-
-  .introducao > .objetivo {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 1100px;
-    height: 405px;
-    padding: 30px;
-    /* background-color: chocolate; */
-  }
-
-  .introducao > .objetivo > .objetivo-titulo {
-    width: 300px;
-    margin-top: -10px;
-    align-self: center;
-    margin-left: -124px;
-    margin-bottom: 32px;
-  }
-
-  .introducao > .objetivo > .objetivo-descricao {
-    /* background-color: yellow; */
-    /* text-align: left; */
-    font-size: 3.5rem;
-    margin-bottom: 60px;
-    /* margin-left: 50px; */
-    align-self: center;
-    position: relative;
-  }
-
-  .introducao > .objetivo > .local {
-    font-size: 1.875rem;
-    line-height: 80px;
-    margin-left: -100px;
-    align-self: center;
-  }
-
-  .introducao .objetivo-descricao::before {
-    content: "";
-    display: block;
-    width: 130px;
-    height: 100px;
-    background: url("../imagens/decoracao/tags.svg") no-repeat center;
-    position: absolute;
-    top: -16px;
-    left: -90px;
-  }
-}
-
-/* -------------------------------- */
 /* -----MAX-WIDTH: 1024PX---- ------*/
 /* -------------------------------- */
-@media (min-width: 965px) and (max-width: 1024.99px) {
+/* @media (min-width: 965px) and (max-width: 1024.99px) { */
+@media (max-width: 1024.99px) {
   .introducao {
-    display: flex;
-    grid-area: introducao;
-    margin: 0 22px;
+    margin: 0 25px;
     height: 400px;
-    width: 955px;
-    /* background-color: chocolate; */
   }
 
   .introducao > .foto-perfil {
@@ -138,193 +110,38 @@
   }
 
   .introducao > .objetivo {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 1100px;
-    height: 270px;
-    padding: 30px;
-    /* background-color: blue; */
+    height: 340px;
   }
 
   .introducao > .objetivo > .objetivo-titulo {
     width: 232px;
-    margin-top: -20px;
-    align-self: center;
-    margin-left: -108px;
-    margin-bottom: 32px;
+    margin: -10px 0 32px -108px;
   }
 
   .introducao > .objetivo > .objetivo-descricao {
     font-size: 2.8rem;
-    margin-bottom: 60px;
-    align-self: center;
-    position: relative;
+    margin-top: 18px;
   }
 
   .introducao > .objetivo > .local {
-    font-size: 1.3rem;
-    line-height: 80px;
-    margin-top: -50px;
-    margin-left: -116px;
-    align-self: center;
+    font-size: 1.375rem;
   }
 
   .introducao .objetivo-descricao::before {
-    content: "";
-    display: block;
     width: 110px;
     height: 80px;
-    background: url("../imagens/decoracao/tags.svg") no-repeat center;
-    position: absolute;
     top: -14px;
     left: -80px;
   }
 }
-
-/* -------------------------------- */
-/* -----MAX-WIDTH: 964PX---- ------*/
-/* -------------------------------- */
-@media (min-width: 769px) and (max-width: 964.99px) {
-  .introducao {
-    display: flex;
-    grid-area: introducao;
-    margin: 0 22px;
-    height: 330px;
-    width: 795px;
-    /* background-color: chocolate; */
-  }
-
-  .introducao > .foto-perfil {
-    width: 306px;
-    height: 330px;
-  }
-
-  .introducao > .objetivo {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 1100px;
-    height: 270px;
-    padding: 30px;
-    /* background-color: blue; */
-  }
-
-  .introducao > .objetivo > .objetivo-titulo {
-    width: 232px;
-    margin-top: -20px;
-    align-self: center;
-    margin-left: -108px;
-    margin-bottom: 32px;
-  }
-
-  .introducao > .objetivo > .objetivo-descricao {
-    font-size: 2.8rem;
-    margin-bottom: 60px;
-    align-self: center;
-    position: relative;
-  }
-
-  .introducao > .objetivo > .local {
-    font-size: 1.3rem;
-    line-height: 80px;
-    margin-top: -50px;
-    margin-left: -116px;
-    align-self: center;
-  }
-
-  .introducao .objetivo-descricao::before {
-    content: "";
-    display: block;
-    width: 110px;
-    height: 80px;
-    background: url("../imagens/decoracao/tags.svg") no-repeat center;
-    position: absolute;
-    top: -14px;
-    left: -80px;
-  }
-}
-
-/* -------------------------------- */
-/* -----MAX-WIDTH: 870PX------------*/
-/* -------------------------------- */
-@media (min-width: 769px) and (max-width: 870.99px) {
-  .introducao {
-    display: flex;
-    grid-area: introducao;
-    margin: 0 22px;
-    height: 290px;
-    width: 795px;
-    /* background-color: chocolate; */
-  }
-
-  .introducao > .foto-perfil {
-    width: 366px;
-    height: 290px;
-  }
-
-  .introducao > .objetivo {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 1100px;
-    height: 230px;
-    padding: 30px;
-    /* background-color: blue; */
-  }
-
-  .introducao > .objetivo > .objetivo-titulo {
-    width: 212px;
-    margin-top: -20px;
-    align-self: center;
-    margin-left: -94px;
-    margin-bottom: 12px;
-  }
-
-  .introducao > .objetivo > .objetivo-descricao {
-    font-size: 2.5rem;
-    margin-bottom: 60px;
-    align-self: center;
-    position: relative;
-  }
-
-  .introducao > .objetivo > .local {
-    font-size: 1.28rem;
-    line-height: 80px;
-    margin-top: -50px;
-    margin-left: -90px;
-    align-self: center;
-  }
-
-  .introducao .objetivo-descricao::before {
-    content: "";
-    display: block;
-    width: 110px;
-    height: 80px;
-    background: url("../imagens/decoracao/tags.svg") no-repeat center;
-    position: absolute;
-    top: -14px;
-    left: -80px;
-  }
-}
-
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 768PX -----------*/
 /* -------------------------------- */
-@media (min-width: 426px) and (max-width: 768.99px) {
+@media (max-width: 768px) {
   .introducao {
-    display: flex;
-    grid-area: introducao;
-    height: 290px;
-    width: 720px;
-    margin: 0 20px;
+    height: 260px;
+    margin: 0 23px;
   }
 
   .introducao > .foto-perfil {
@@ -333,49 +150,32 @@
   }
 
   .introducao > .objetivo {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    width: 1100px;
+    flex-wrap: nowrap;
     height: 200px;
     padding: 30px;
-    /* background-color: aqua; */
   }
 
   .introducao > .objetivo > .objetivo-titulo {
     width: 176px;
-    margin-top: -20px;
-    align-self: center;
-    margin-left: -46px;
-    margin-bottom: 14px;
+    margin: 24px 0 20px -6px;
   }
 
   .introducao > .objetivo > .objetivo-descricao {
-    font-size: 1.8rem;
-    margin-bottom: 60px;
-    align-self: center;
-    position: relative;
+    font-size: 2.2rem;
+    margin: 4px 0 0 36px;
   }
 
   .introducao > .objetivo > .local {
-    font-size: 1.18rem;
-    line-height: 80px;
-    margin-top: -50px;
-    margin-left: -30px;
-    align-self: center;
+    font-size: 1.1rem;
+    margin-top: 24px;
+    margin-left: 0;
   }
 
   .introducao .objetivo-descricao::before {
-    content: "";
-    display: block;
     width: 100px;
     height: 60px;
-    background: url("../imagens/decoracao/tags.svg") no-repeat center;
-    position: absolute;
     top: -10px;
-    left: -80px;
+    left: -78px;
   }
 }
 
@@ -383,75 +183,47 @@
 /* -----MAX-WIDTH: 425PX -----------*/
 /* ------------PRONTO-------------------- */
 /* Exibição para celular Samsung J8 */
-@media (min-width: 376px) and (max-width: 425.99px) {
+/* @media (min-width: 376px) and (max-width: 425.99px) { */
+  @media (max-width: 425.99px) {
   .introducao {
-    display: flex;
-    grid-area: introducao;
-    flex-wrap: wrap;
     height: 310px;
-    /* background-color: chocolate; */
-    margin: 0px 9px;
+    margin: 0px 8px;
   }
   .introducao > .foto-perfil {
     display: none;
   }
 
   .introducao > .objetivo {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 370px;
     height: 290px;
-    padding: 10px;
-    /* background-color: blue; */
   }
 
   .introducao > .objetivo > .objetivo-titulo {
     width: 200px;
-    margin-top: 12px;
-    align-self: center;
-    margin-bottom: 24px;
+    margin: -12px 0 24px 0;
   }
 
   .introducao > .objetivo > .objetivo-descricao {
-    font-size: 40px;
-    margin-bottom: 60px;
-    align-self: center;
+    font-size: 2.3rem;
+    margin: 20px 0 0 0;
     text-align: center;
-    position: relative;
   }
 
   .introducao > .objetivo > .local {
     font-size: 20px;
-    line-height: 40px;
-    margin-left: 0px;
-    align-self: center;
+    margin-top: 50px;
   }
 
   .introducao .objetivo-descricao::before {
-    content: "";
     display: none;
-    width: 30px;
-    height: 30px;
-    background: url("../imagens/decoracao/tags.svg") no-repeat center;
-    position: absolute;
-    top: 4px;
-    left: -40px;
   }
 }
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 375PX -----------*/
 /* -------------------------------- */
-@media (min-width: 321px) and (max-width: 375.99px) {
+@media (max-width: 375.99px) {
   .introducao {
-    display: flex;
-    grid-area: introducao;
-    flex-wrap: wrap;
     height: 310px;
-    /* background-color: chocolate; */
     margin: 0px 9px;
   }
   .introducao > .foto-perfil {
@@ -459,35 +231,20 @@
   }
 
   .introducao > .objetivo {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 370px;
-    height: 290px;
-    padding: 10px;
-    /* background-color: blue; */
+    height: 250px;
   }
 
   .introducao > .objetivo > .objetivo-titulo {
     width: 160px;
-    margin-top: 12px;
-    align-self: center;
-    margin-bottom: 24px;
+    margin: 22px 0;
   }
 
   .introducao > .objetivo > .objetivo-descricao {
-    font-size: 38px;
-    margin-bottom: 60px;
-    align-self: center;
-    text-align: center;
+    font-size: 2rem;
   }
 
   .introducao > .objetivo > .local {
     font-size: 18px;
-    line-height: 40px;
-    align-self: center;
   }
 
   .introducao .objetivo-descricao::before {
@@ -495,53 +252,33 @@
   }
 }
 
-
 /* -------------------------------- */
 /* -----MAX-WIDTH: 320PX -----------*/
 /* -------------------------------- */
 @media (max-width: 320.99px) {
   .introducao {
-    display: flex;
-    grid-area: introducao;
-    flex-wrap: wrap;
-    height: 310px;
-    /* background-color: chocolate; */
-    margin: 0px 9px;
+    height: 280px;
+    margin: 0px 8px;
   }
   .introducao > .foto-perfil {
     display: none;
   }
 
   .introducao > .objetivo {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 370px;
-    height: 290px;
-    padding: 10px;
-    /* background-color: blue; */
+    height: 220px;
   }
 
   .introducao > .objetivo > .objetivo-titulo {
     width: 140px;
-    margin-top: 12px;
-    align-self: center;
-    margin-bottom: 24px;
+    margin: 20px 0 4px 0;
   }
 
   .introducao > .objetivo > .objetivo-descricao {
-    font-size: 34px;
-    margin-bottom: 60px;
-    align-self: center;
-    text-align: center;
+    font-size: 1.8rem;
   }
 
   .introducao > .objetivo > .local {
-    font-size: 18px;
-    line-height: 40px;
-    align-self: center;
+    font-size: 16px;
   }
 
   .introducao .objetivo-descricao::before {
