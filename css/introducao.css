@@ -136,6 +136,47 @@
 }
 
 /* -------------------------------- */
+/* -----MAX-WIDTH: 964PX -----------*/
+/* -------------------------------- */
+@media (max-width: 900.99px) {
+  .introducao {
+    margin: 0px 26px;
+    height: 330px;
+    /* background-color: aqua; */
+  }
+
+  .introducao > .foto-perfil {
+    width: 356px;
+    height: 330px;
+  }
+
+  .introducao > .objetivo {
+    height: 270px;
+    /* line-height: 10; */
+    /* background-color: blue; */
+  }
+
+  .introducao > .objetivo > .objetivo-titulo {
+    width: 190px;
+    margin: -20px 20px 10px -46px;
+  }
+
+  .introducao > .objetivo > .objetivo-descricao {
+    font-size: 2.1rem;
+  }
+
+  .introducao > .objetivo > .local {
+    font-size: 20px;
+    margin-left: -50px;
+  }
+
+  .introducao .objetivo-descricao::before {
+    display: none;
+  }
+}
+
+
+/* -------------------------------- */
 /* -----MAX-WIDTH: 768PX -----------*/
 /* -------------------------------- */
 @media (max-width: 768px) {
