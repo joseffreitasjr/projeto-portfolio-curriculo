@@ -136,13 +136,13 @@
 }
 
 /* -------------------------------- */
-/* -----MAX-WIDTH: 964PX -----------*/
+/* -----MAX-WIDTH: 900PX -----------*/
+/* Tela deitada no Samsung */
 /* -------------------------------- */
 @media (max-width: 900.99px) {
   .introducao {
-    margin: 0px 26px;
+    margin: 0px 22px;
     height: 330px;
-    /* background-color: aqua; */
   }
 
   .introducao > .foto-perfil {
@@ -151,14 +151,13 @@
   }
 
   .introducao > .objetivo {
-    height: 270px;
-    /* line-height: 10; */
-    /* background-color: blue; */
+    height: 290px;
+    padding: 20px;
   }
 
   .introducao > .objetivo > .objetivo-titulo {
     width: 190px;
-    margin: -20px 20px 10px -46px;
+    margin: -10px 20px 10px -46px;
   }
 
   .introducao > .objetivo > .objetivo-descricao {
@@ -171,15 +170,17 @@
   }
 
   .introducao .objetivo-descricao::before {
-    display: none;
+    width: 100px;
+    height: 70px;
+    top: -14px;
+    left: -78px;
   }
 }
-
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 768PX -----------*/
 /* -------------------------------- */
-@media (max-width: 768px) {
+@media (max-width: 768.99px) {
   .introducao {
     height: 260px;
     margin: 0 23px;
@@ -225,7 +226,7 @@
 /* ------------PRONTO-------------------- */
 /* Exibição para celular Samsung J8 */
 /* @media (min-width: 376px) and (max-width: 425.99px) { */
-  @media (max-width: 425.99px) {
+@media (max-width: 425.99px) {
   .introducao {
     height: 310px;
     margin: 0px 8px;
