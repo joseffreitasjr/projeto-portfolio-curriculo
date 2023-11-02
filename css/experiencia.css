@@ -255,7 +255,7 @@
 /* -----MAX-WIDTH: 900PX -----------*/
 /* Tela deitada no Samsung */
 /* -------------------------------- */
-@media(max-width: 900.99px){
+@media (max-width: 900.99px) {
   .experiencia {
     max-width: 900px;
     margin: 40px 20px;
@@ -307,6 +307,142 @@
   .experiencia > .experiencia-empresa-container > .experiencia-empresa > ul {
     margin: 24px 0 0 40px;
     font-size: 16px;
+  }
+
+  .experiencia > .experiencia-empresa > ul::before {
+    content: "";
+    display: block;
+    width: 14px;
+    height: 14px;
+    background: url("../imagens/decoracao/ellipse.svg") no-repeat center;
+    position: absolute;
+  }
+}
+
+/* -------------------------------- */
+/* -----MAX-WIDTH: 768PX -----------*/
+/* -------------------------------- */
+@media (max-width: 768.99px) {
+  .experiencia {
+    max-width: 768px;
+    /* margin: 40px 20px; */
+    height: 560px;
+    background-color: var(--cinza5);
+    border: 2px solid black;
+  }
+
+  .experiencia > .experiencia-titulo {
+    margin-top: -80px;
+    width: 260px;
+  }
+
+  .experiencia > .experiencia-empresa-container {
+    margin-top: -120px;
+    margin-left: 90px;
+    width: 560px;
+  }
+
+  .experiencia > .experiencia-empresa-container > .experiencia-empresa {
+    height: 180px;
+  }
+
+  .experiencia
+    > .experiencia-empresa-container
+    > .experiencia-empresa
+    > .experiencia-ano {
+    left: -84px;
+    top: 16px;
+    font-size: 16px;
+  }
+
+  .experiencia
+    > .experiencia-empresa-container
+    > .experiencia-empresa
+    > .experiencia-nome {
+    margin: -10px 0px 100px 20px;
+    font-size: 16px;
+  }
+
+  .experiencia
+    > .experiencia-empresa-container
+    > .experiencia-empresa
+    > .experiencia-profissao {
+    margin-top: -120px;
+    font-size: 16px;
+  }
+
+  .experiencia > .experiencia-empresa-container > .experiencia-empresa > ul {
+    margin: 24px 0 0 40px;
+    font-size: 14px;
+  }
+
+  .experiencia > .experiencia-empresa > ul::before {
+    content: "";
+    display: block;
+    width: 14px;
+    height: 14px;
+    background: url("../imagens/decoracao/ellipse.svg") no-repeat center;
+    position: absolute;
+  }
+}
+
+/* -------------------------------- */
+/* -----MAX-WIDTH: 668PX -----------*/
+/* ------------PRONTO-------------------- */
+/* Exibição horizontal para celular Samsung A6 (mãe) */
+/* @media (min-width: 426px) and (max-width: 668.99px) { */
+@media (max-width: 668.99px) {
+  .experiencia {
+    max-width: 768px;
+    margin: 40px 8px;
+    height: 560px;
+    background-color: var(--cinza5);
+    border: 2px solid black;
+  }
+
+  .experiencia > .experiencia-titulo {
+    margin-top: -80px;
+    width: 240px;
+  }
+
+  .experiencia > .experiencia-empresa-container {
+    margin-top: -120px;
+    margin-left: 70px;
+    width: 480px;
+  }
+
+  .experiencia > .experiencia-empresa-container > .experiencia-empresa {
+    height: 180px;
+  }
+
+  .experiencia
+    > .experiencia-empresa-container
+    > .experiencia-empresa
+    > .experiencia-ano {
+    left: -78px;
+    top: 14px;
+    font-size: 14px;
+  }
+
+  .experiencia
+    > .experiencia-empresa-container
+    > .experiencia-empresa
+    > .experiencia-nome {
+    margin: -10px 0px 100px 20px;
+    font-size: 14px;
+  }
+
+  .experiencia
+    > .experiencia-empresa-container
+    > .experiencia-empresa
+    > .experiencia-profissao {
+    margin-top: -120px;
+    font-size: 14px;
+  }
+
+  .experiencia > .experiencia-empresa-container > .experiencia-empresa > ul {
+    margin: 24px 0 0 40px;
+    font-size: 12px;
   }
 
   .experiencia > .experiencia-empresa > ul::before {
