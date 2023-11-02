@@ -1,92 +1,320 @@
+/* -------------------------------- */
+/* -----MAX-WIDTH: 1920PX ----------*/
+/* ----------PRONTO---------------------- */
+/* @media (min-width: 1025px) and (max-width: 1920.99px) { */
 .experiencia {
-  display: flex;
-  grid-area: experiencia;
-  background-color: blue;
-}
-
-/* .experiencia {
   display: grid;
-  grid-template-columns: 1fr 2fr;
-  max-width: 1200px;
+  grid-area: experiencia;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-areas:
+    "experiencia-titulo experiencia-titulo"
+    "experiencia-empresa experiencia-empresa"
+    "experiencia-empresa experiencia-empresa"
+    "experiencia-empresa experiencia-empresa";
+
+  max-width: 1920px;
   padding: 40px 20px;
-  margin: 0 auto;
+  margin: 30px;
   gap: 100px;
   position: relative;
-  height: 800px;
-} */
+  height: 694px;
+  background-color: var(--cinza5);
+}
 
-/* .experiencia .subtitulo {
-  color: #e0e0e0;
-} */
+.experiencia > .experiencia-titulo {
+  grid-area: experiencia-titulo;
+  margin-top: -80px;
+  margin-left: 10px;
+  width: 400px;
+  justify-self: center;
+  align-self: center;
+}
 
-/* .experiencia-texto{
+.experiencia > .experiencia-empresa-container {
+  grid-area: experiencia-empresa;
+  grid-template-rows: repeat(3, 1fr);
+  margin-top: -80px;
+  margin-left: 236px;
+  width: 900px;
   position: absolute;
-  color: #525252;
-  grid-column: 1;
-  font-size: 1.5rem;
-  line-height: 1.33;  
-  max-width: 25ch;
-  margin-right: 60px;
-  top: 150px;
-} */
+}
 
-/* .experiencia-texto strong {
-  color: #141414;
-} */
+.experiencia > .experiencia-empresa-container > .experiencia-empresa {
+  display: flex;
+  grid-area: 1 / 1 / 2 / 3;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 200px;
+}
 
-/* .empresa {
-  
-  display: grid;
-  justify-content: start;
-  padding: 20px;
-  background: #f5f5f5;
-  margin-bottom: -80px;
-  border-radius: 4px;
+.experiencia
+  > .experiencia-empresa-container
+  > .experiencia-empresa
+  > .experiencia-ano {
+  left: -108px;
+  top: 14px;
   position: relative;
-  top: -70px;
-  height: 130px;
-} */
+  font-size: 20px;
+}
 
-/* .empresa-ano{
+.experiencia
+  > .experiencia-empresa-container
+  > .experiencia-empresa:nth-child(odd) {
+  background-color: var(--cinza1);
+}
+
+.experiencia
+  > .experiencia-empresa-container
+  > .experiencia-empresa:nth-child(even) {
+  background-color: var(--cinza3);
+}
+
+.experiencia
+  > .experiencia-empresa-container
+  > .experiencia-empresa
+  > .experiencia-nome {
+  margin: -10px 0px 30px 20px;
+  height: 20px;
+  color: var(--preto);
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.experiencia
+  > .experiencia-empresa-container
+  > .experiencia-empresa
+  > .experiencia-profissao {
+  font-weight: 600;
+  height: 20px;
+  align-self: flex-end;
+  margin: -50px 20px 0 0;
+  color: var(--preto);
+  font-size: 20px;
+  font-style: normal;
+  line-height: 32px;
+}
+
+.experiencia > .experiencia-empresa-container > .experiencia-empresa > ul {
+  position: relative;
+  margin: 4px 25px;
+  line-height: 1.6;
+  color: var(--preto);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.experiencia > .experiencia-empresa > ul::before {
+  content: "";
+  display: block;
+  width: 14px;
+  height: 14px;
+  background: url("../imagens/decoracao/ellipse.svg") no-repeat center;
   position: absolute;
-  top: 20px;
-  left: -76px;
-  color: #525252;
-  font-size: 0.875rem;
-} */
+}
 
-/* .empresa span {
-    justify-self: end;
-} */
-
-/* .empresa-texto {
-  font-size: 1rem;
-  line-height: 1.4;
-  color: #525252;
-  margin-top: -10px;
-  max-width: 100ch;
- 
-} */
-
-/* @media (max-width: 1100px) {
-   .experiencia {
-    grid-template-columns: 1fr;
-    grid-column: 1/-1;
-    max-width: 1200px;
-    padding: 40px 20px;
-    margin: 0 auto;
-    gap: 40px;
-    position: relative;
-    justify-items: flex-end;
-  } 
-
-  .experiencia .subtitulo{
-    color: #141414;
+/* -------------------------------- */
+/* -----MIN-WIDTH: 1921PX---- ------*/
+/* -------------------------------- */
+@media (min-width: 1921px) {
+  .experiencia {
+    max-width: 2560px;
+    margin: 50px;
+    height: 1300px;
+    background-color: var(--cinza5);
+    border: 2px solid black;
   }
 
-} */
+  .experiencia > .experiencia-titulo {
+    margin-top: -50px;
+    width: 700px;
+  }
 
+  .experiencia > .experiencia-empresa-container {
+    margin-left: 248px;
+    width: 1890px;
+  }
 
+  .experiencia > .experiencia-empresa-container > .experiencia-empresa {
+    height: 340px;
+  }
 
+  .experiencia
+    > .experiencia-empresa-container
+    > .experiencia-empresa
+    > .experiencia-ano {
+    left: -208px;
+    top: 30px;
+    font-size: 40px;
+  }
 
+  .experiencia
+    > .experiencia-empresa-container
+    > .experiencia-empresa
+    > .experiencia-nome {
+    margin: -10px 0px 100px 20px;
+    font-size: 40px;
+  }
 
+  .experiencia
+    > .experiencia-empresa-container
+    > .experiencia-empresa
+    > .experiencia-profissao {
+    margin-top: -120px;
+    font-size: 40px;
+  }
+
+  .experiencia > .experiencia-empresa-container > .experiencia-empresa > ul {
+    margin: 44px 0 0 40px;
+    font-size: 34px;
+  }
+
+  .experiencia > .experiencia-empresa > ul::before {
+    content: "";
+    display: block;
+    width: 14px;
+    height: 14px;
+    background: url("../imagens/decoracao/ellipse.svg") no-repeat center;
+    position: absolute;
+  }
+}
+
+/* -------------------------------- */
+/* -----MAX-WIDTH: 1024PX---- ------*/
+/* -------------------------------- */
+/* @media (min-width: 965px) and (max-width: 1024.99px) { */
+@media (max-width: 1024px) {
+  .experiencia {
+    max-width: 1024px;
+    margin: 40px 25px;
+    height: 700px;
+    background-color: var(--cinza5);
+    border: 2px solid black;
+  }
+
+  .experiencia > .experiencia-titulo {
+    margin-top: -100px;
+    width: 340px;
+  }
+
+  .experiencia > .experiencia-empresa-container {
+    margin-top: -100px;
+    margin-left: 110px;
+    width: 800px;
+  }
+
+  .experiencia > .experiencia-empresa-container > .experiencia-empresa {
+    height: 200px;
+  }
+
+  .experiencia
+    > .experiencia-empresa-container
+    > .experiencia-empresa
+    > .experiencia-ano {
+    left: -106px;
+    top: 16px;
+    font-size: 20px;
+  }
+
+  .experiencia
+    > .experiencia-empresa-container
+    > .experiencia-empresa
+    > .experiencia-nome {
+    margin: -10px 0px 100px 20px;
+    font-size: 20px;
+  }
+
+  .experiencia
+    > .experiencia-empresa-container
+    > .experiencia-empresa
+    > .experiencia-profissao {
+    margin-top: -120px;
+    font-size: 20px;
+  }
+
+  .experiencia > .experiencia-empresa-container > .experiencia-empresa > ul {
+    margin: 24px 0 0 40px;
+    font-size: 18px;
+  }
+
+  .experiencia > .experiencia-empresa > ul::before {
+    content: "";
+    display: block;
+    width: 14px;
+    height: 14px;
+    background: url("../imagens/decoracao/ellipse.svg") no-repeat center;
+    position: absolute;
+  }
+}
+
+/* -------------------------------- */
+/* -----MAX-WIDTH: 900PX -----------*/
+/* Tela deitada no Samsung */
+/* -------------------------------- */
+@media(max-width: 900.99px){
+  .experiencia {
+    max-width: 900px;
+    margin: 40px 20px;
+    height: 600px;
+    background-color: var(--cinza5);
+    border: 2px solid black;
+  }
+
+  .experiencia > .experiencia-titulo {
+    margin-top: -90px;
+    width: 290px;
+  }
+
+  .experiencia > .experiencia-empresa-container {
+    margin-top: -120px;
+    margin-left: 110px;
+    width: 680px;
+  }
+
+  .experiencia > .experiencia-empresa-container > .experiencia-empresa {
+    height: 180px;
+  }
+
+  .experiencia
+    > .experiencia-empresa-container
+    > .experiencia-empresa
+    > .experiencia-ano {
+    left: -106px;
+    top: 16px;
+    font-size: 18px;
+  }
+
+  .experiencia
+    > .experiencia-empresa-container
+    > .experiencia-empresa
+    > .experiencia-nome {
+    margin: -10px 0px 100px 20px;
+    font-size: 18px;
+  }
+
+  .experiencia
+    > .experiencia-empresa-container
+    > .experiencia-empresa
+    > .experiencia-profissao {
+    margin-top: -120px;
+    font-size: 18px;
+  }
+
+  .experiencia > .experiencia-empresa-container > .experiencia-empresa > ul {
+    margin: 24px 0 0 40px;
+    font-size: 16px;
+  }
+
+  .experiencia > .experiencia-empresa > ul::before {
+    content: "";
+    display: block;
+    width: 14px;
+    height: 14px;
+    background: url("../imagens/decoracao/ellipse.svg") no-repeat center;
+    position: absolute;
+  }
+}

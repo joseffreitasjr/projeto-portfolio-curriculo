@@ -7,11 +7,12 @@
   grid-area: introducao;
   margin: 1.875rem;
   height: 430px;
+  background-color: var(--cinza7);
 }
 
 .introducao > .foto-perfil {
   width: 406px;
-  height: 430px;
+  height: 428px;
 }
 
 .introducao > .objetivo {
@@ -19,8 +20,9 @@
   flex-direction: column;
   align-items: center;
   width: 1100px;
-  height: 405px;
+  height: 368px;
   padding: 30px;
+
 }
 
 .introducao > .objetivo > .objetivo-titulo {
@@ -76,7 +78,7 @@
 
   .introducao > .objetivo > .objetivo-titulo {
     width: 500px;
-    margin: -10px 0 32px -232px;
+    margin: 10px 0 32px 0px;
   }
 
   .introducao > .objetivo > .objetivo-descricao {
@@ -86,7 +88,7 @@
   .introducao > .objetivo > .local {
     font-size: 3.2rem;
     line-height: 80px;
-    margin-left: -188px;
+    margin-left: -20px;
     margin-top: 60px;
     align-self: center;
   }
