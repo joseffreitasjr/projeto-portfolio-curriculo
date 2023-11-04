@@ -460,7 +460,7 @@
 /* ------------PRONTO-------------------- */
 /* Exibição para celular Samsung J8 */
 /* @media (min-width: 376px) and (max-width: 425.99px) { */
-@media (max-width: 425.99px) {
+@media (max-width: 412.99px) {
   .experiencia {
     max-width: 425px;
     margin: 40px 8px;
