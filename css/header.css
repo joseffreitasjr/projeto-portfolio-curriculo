@@ -168,16 +168,18 @@
   .header {
     padding: 18px 8px;
     margin: 8px;
+    /* background-color: chocolate; */
   }
 
   .header img {
     width: 20rem;
-    margin-left: 8px;
+    margin-left: -4px;
   }
 
   .header-menu {
     width: 18.75rem;
-    margin-left: 8px;
+    margin-left: -4px;
+    /* background-color: cadetblue; */
   }
 
   .header-menu a {
