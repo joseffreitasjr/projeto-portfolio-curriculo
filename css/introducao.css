@@ -22,7 +22,6 @@
   width: 1100px;
   height: 368px;
   padding: 30px;
-
 }
 
 .introducao > .objetivo > .objetivo-titulo {
@@ -230,53 +229,92 @@
 /* ------------PRONTO-------------------- */
 /* Exibição horizontal para celular Samsung A6 (mãe) */
 /* @media (min-width: 426px) and (max-width: 668.99px) { */
-  @media (max-width: 668.99px) {
-    .introducao {
-      height: 250px;
-      margin: 0 8px;
-    }
-  
-    .introducao > .foto-perfil {
-      width: 326px;
-      height: 250px;
-    }
-  
-    .introducao > .objetivo {
-      flex-wrap: nowrap;
-      height: 180px;
-      padding: 20px;
-    }
-  
-    .introducao > .objetivo > .objetivo-titulo {
-      width: 176px;
-      margin: 8px 0 20px -2px;
-    }
-  
-    .introducao > .objetivo > .objetivo-descricao {
-      font-size: 28px;
-      margin: 4px 0 0 36px;
-    }
-  
-    .introducao > .objetivo > .local {
-      font-size: 1.1rem;
-      margin-top: 24px;
-      margin-left: 0;
-    }
-  
-    .introducao .objetivo-descricao::before {
-      width: 90px;
-      height: 50px;
-      top: -8px;
-      left: -72px;
-    }
+@media (max-width: 668.99px) {
+  .introducao {
+    height: 250px;
+    margin: 0 8px;
   }
 
+  .introducao > .foto-perfil {
+    width: 326px;
+    height: 250px;
+  }
+
+  .introducao > .objetivo {
+    flex-wrap: nowrap;
+    height: 180px;
+    padding: 20px;
+  }
+
+  .introducao > .objetivo > .objetivo-titulo {
+    width: 176px;
+    margin: 8px 0 20px -2px;
+  }
+
+  .introducao > .objetivo > .objetivo-descricao {
+    font-size: 28px;
+    margin: 4px 0 0 36px;
+  }
+
+  .introducao > .objetivo > .local {
+    font-size: 1.1rem;
+    margin-top: 24px;
+    margin-left: 0;
+  }
+
+  .introducao .objetivo-descricao::before {
+    width: 90px;
+    height: 50px;
+    top: -8px;
+    left: -72px;
+  }
+}
+
 /* -------------------------------- */
-/* -----MAX-WIDTH: 425PX -----------*/
+/* -----MAX-WIDTH: 414PX -----------*/
+/* ------------PRONTO-------------------- */
+/* Exibição para celular Samsung J8 */
+/* @media (min-width: 413px) and (max-width: 414.99px) { */
+@media (max-width: 414.99px) {
+  .introducao {
+    height: 310px;
+    margin: 0px 8px;
+  }
+  .introducao > .foto-perfil {
+    display: none;
+  }
+
+  .introducao > .objetivo {
+    height: 290px;
+  }
+
+  .introducao > .objetivo > .objetivo-titulo {
+    width: 200px;
+    margin: -2px 0 24px 0;
+  }
+
+  .introducao > .objetivo > .objetivo-descricao {
+    font-size: 2.3rem;
+    margin: 20px 0 0 0;
+    text-align: center;
+  }
+
+  .introducao > .objetivo > .local {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+
+  .introducao .objetivo-descricao::before {
+    display: none;
+  }
+}
+
+/* -------------------------------- */
+/* -----MAX-WIDTH: 412PX -----------*/
 /* ------------PRONTO-------------------- */
 /* Exibição para celular Samsung J8 */
 /* @media (min-width: 376px) and (max-width: 425.99px) { */
-@media (max-width: 425.99px) {
+@media (max-width: 412.99px) {
   .introducao {
     height: 310px;
     margin: 0px 8px;

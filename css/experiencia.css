@@ -525,29 +525,29 @@
 }
 
 /* -------------------------------- */
-/* -----MAX-WIDTH: 425PX -----------*/
+/* -----MAX-WIDTH: 414PX -----------*/
 /* ------------PRONTO-------------------- */
 /* Exibição para celular Samsung J8 */
-/* @media (min-width: 376px) and (max-width: 425.99px) { */
-@media (max-width: 425.99px) {
+/* @media (min-width: 413px) and (max-width: 414.99px) { */
+@media (max-width: 414.99px) {
   .experiencia {
     max-width: 425px;
-    margin: 40px 8px;
-    height: 748px;
+    margin: -60px 8px;
+    height: 708px;
     background-color: var(--cinza5);
     border: 2px solid black;
     grid-template-columns: 1fr;
   }
 
   .experiencia > .experiencia-titulo {
-    margin-top: -80px;
+    margin-top: -120px;
     width: 240px;
   }
 
   .experiencia > .experiencia-empresa-container {
-    margin-top: -120px;
+    margin-top: -160px;
     margin-left: -2px;
-    width: 338px;
+    width: 320px;
   }
 
   .experiencia > .experiencia-empresa-container > .experiencia-empresa {
@@ -603,21 +603,21 @@
   @media (max-width: 412.99px) {
     .experiencia {
       max-width: 425px;
-      margin: 40px 8px;
-      height: 748px;
+      margin: 20px 8px;
+      height: 708px;
       background-color: var(--cinza5);
       border: 2px solid black;
       grid-template-columns: 1fr;
     }
   
     .experiencia > .experiencia-titulo {
-      margin-top: -80px;
+      margin-top: -120px;
       margin-left: -10px;
       width: 240px;
     }
   
     .experiencia > .experiencia-empresa-container {
-      margin-top: -140px;
+      margin-top: -160px;
       margin-left: -2px;
       width: 316px;
     }
