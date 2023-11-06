@@ -158,7 +158,37 @@
     }
   }
 
-  /* -------------------------------- */
+/* -------------------------------- */
+/* -----MAX-WIDTH: 425PX -----------*/
+/* ------------PRONTO-------------------- */
+/* Exibição para celular Samsung J8 */
+/* @media (min-width: 413px) and (max-width: 414.99px) {*/
+  @media (max-width: 425.99px) {
+    .header {
+      padding: 18px 8px;
+      margin: 8px;
+      /* background-color: chocolate; */
+    }
+  
+    .header img {
+      width: 20rem;
+      margin-left: -4px;
+    }
+  
+    .header-menu {
+      width: 18.75rem;
+      margin-left: -4px;
+      /* background-color: cadetblue; */
+    }
+  
+    .header-menu a {
+      font-size: 1rem;
+      line-height: 1;
+    }
+  }
+  
+
+/* -------------------------------- */
 /* -----MAX-WIDTH: 414PX -----------*/
 /* ------------PRONTO-------------------- */
 /* Exibição para celular Samsung J8 */
