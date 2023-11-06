@@ -394,7 +394,7 @@
     max-width: 768px;
     /* margin: 40px 20px; */
     height: 560px;
-    background-color: var(--cinza5);
+    background-color: var(yellowgreen);
     border: 2px solid black;
   }
 
@@ -601,7 +601,7 @@
       max-width: 425px;
       margin: 20px 8px;
       height: 708px;
-      background-color: var(--cinza5);
+      background-color: brown;
       border: 2px solid black;
       grid-template-columns: 1fr;
     }
