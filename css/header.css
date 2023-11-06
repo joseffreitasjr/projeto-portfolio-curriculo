@@ -130,6 +130,33 @@
   }
 }
 
+/* -------------------------------- */
+/* -----MAX-WIDTH: 720PX -----------*/
+/* -------------------------------- */
+/* @media (min-width: 426px) and (max-width: 768px) { */
+  @media (max-width: 720.99px) {
+    .header {
+      flex-wrap: wrap;
+      padding: 10px;
+      margin: 1.5rem;
+      background-color: cadetblue;
+    }
+  
+    .header img {
+      width: 30rem;
+      margin-bottom: 10px;
+      padding: 10px;
+    }
+    .header-menu {
+      width: 21rem;
+      margin-left: 18px;
+    }
+    .header-menu a {
+      font-size: 1rem;
+      line-height: 1;
+    }
+  }
+
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 668PX -----------*/
