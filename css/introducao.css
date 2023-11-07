@@ -7,7 +7,7 @@
   grid-area: introducao;
   margin: 1.875rem;
   height: 430px;
-  background-color: var(--cinza7);
+  /* background-color: var(--cinza7); */
 }
 
 .introducao > .foto-perfil {
@@ -179,6 +179,52 @@
     left: -78px;
   }
 }
+
+/* -------------------------------- */
+/* -----MAX-WIDTH: 821PX -----------*/
+/* -------------------------------- */
+@media (max-width: 821.99px) {
+  .introducao {
+    height: 260px;
+    margin: 0 23px;
+    /* background-color: aqua; */
+  }
+
+  .introducao > .foto-perfil {
+    width: 336px;
+    height: 260px;
+  }
+
+  .introducao > .objetivo {
+    flex-wrap: nowrap;
+    height: 200px;
+    padding: 30px;
+  }
+
+  .introducao > .objetivo > .objetivo-titulo {
+    width: 176px;
+    margin: -10px 0 20px -6px;
+  }
+
+  .introducao > .objetivo > .objetivo-descricao {
+    font-size: 2.2rem;
+    margin: 4px 0 0 36px;
+  }
+
+  .introducao > .objetivo > .local {
+    font-size: 1.1rem;
+    margin-top: 24px;
+    margin-left: 0;
+  }
+
+  .introducao .objetivo-descricao::before {
+    width: 100px;
+    height: 60px;
+    top: -10px;
+    left: -78px;
+  }
+}
+
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 768PX -----------*/
