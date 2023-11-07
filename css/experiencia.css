@@ -822,9 +822,10 @@
     }
   
     .experiencia > .experiencia-empresa-container {
-      margin-top: -160px;
-      margin-left: -2px;
-      width: 320px;
+      /* margin-top: -160px; */
+      margin-left: -3px;
+      /* margin-right: 800px; */
+      /* width: 100%; */
     }
   
     .experiencia > .experiencia-empresa-container > .experiencia-empresa {
