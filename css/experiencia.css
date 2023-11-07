@@ -598,7 +598,7 @@
 /* @media (min-width: 413px) and (max-width: 414.99px) { */
   @media (max-width: 425.99px) {
     .experiencia {
-      max-width: 425px;
+      /* max-width: 425px; */
       margin: 6px 8px;
       height: 708px;
       background-color: blue;
@@ -740,10 +740,10 @@
 /* @media (min-width: 376px) and (max-width: 425.99px) { */
   @media (max-width: 412.99px) {
     .experiencia {
-      max-width: 425px;
+      max-width: 412px;
       margin: 20px 8px;
       height: 708px;
-      background-color: var(--cinza5);
+      background-color: indigo;
       border: 2px solid black;
       grid-template-columns: 1fr;
     }
