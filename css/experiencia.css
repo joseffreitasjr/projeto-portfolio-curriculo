@@ -668,7 +668,7 @@
       /* max-width: 425px; */
       margin: 6px 8px;
       height: 708px;
-      /* background-color: blue; */
+      background-color: blue;
       border: 2px solid black;
       grid-template-columns: 1fr;
     }
