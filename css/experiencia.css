@@ -808,8 +808,9 @@
   @media (max-width: 412.99px) {
     .experiencia {
       max-width: 412px;
-      margin: 20px 8px;
+      margin: 10px 8px;
       height: 708px;
+      width: 315px;
       /* background-color: indigo; */
       /* border: 2px solid black; */
       grid-template-columns: 1fr;
@@ -823,9 +824,9 @@
   
     .experiencia > .experiencia-empresa-container {
       /* margin-top: -160px; */
-      margin-left: -3px;
+      margin-left: 0px;
       /* margin-right: 800px; */
-      /* width: 100%; */
+      width: 100%;
     }
   
     .experiencia > .experiencia-empresa-container > .experiencia-empresa {
