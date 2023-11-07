@@ -599,9 +599,9 @@
   @media (max-width: 425.99px) {
     .experiencia {
       max-width: 425px;
-      margin: 20px 8px;
+      margin: 6px 8px;
       height: 708px;
-      background-color: brown;
+      background-color: blue;
       border: 2px solid black;
       grid-template-columns: 1fr;
     }
@@ -614,7 +614,7 @@
     .experiencia > .experiencia-empresa-container {
       margin-top: -160px;
       margin-left: -2px;
-      width: 374px;
+      width: 356px;
     }
   
     .experiencia > .experiencia-empresa-container > .experiencia-empresa {
