@@ -139,7 +139,7 @@
       flex-wrap: wrap;
       padding: 10px;
       margin: 1.5rem;
-      background-color: cadetblue;
+      /* background-color: cadetblue; */
     }
   
     .header img {
@@ -167,6 +167,7 @@
     .header {
       padding: 16px 6px;
       margin: 8px;
+      /* background-color: yellow; */
     }
   
     .header img {
@@ -194,7 +195,7 @@
     .header {
       padding: 18px 8px;
       margin: 8px;
-      /* background-color: chocolate; */
+      background-color: yellowgreen;
     }
   
     .header img {
