@@ -672,7 +672,7 @@
     max-width: 425px;
     margin: -60px 8px;
     height: 708px;
-    background-color: var(--cinza5);
+    background-color: violet;
     border: 2px solid black;
     grid-template-columns: 1fr;
   }
@@ -743,7 +743,7 @@
       max-width: 412px;
       margin: 20px 8px;
       height: 708px;
-      /* background-color: indigo; */
+      background-color: indigo;
       /* border: 2px solid black; */
       grid-template-columns: 1fr;
     }
