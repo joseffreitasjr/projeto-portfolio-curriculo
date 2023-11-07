@@ -320,6 +320,74 @@
 }
 
 /* -------------------------------- */
+/* -----MAX-WIDTH: 821X -----------*/
+/* Tela deitada no Samsung */
+/* -------------------------------- */
+@media (max-width: 821.99px) {
+  .experiencia {
+    max-width: 900px;
+    margin: 40px 20px;
+    height: 600px;
+    background-color: darkgoldenrod;
+    border: 2px solid black;
+  }
+
+  .experiencia > .experiencia-titulo {
+    margin-top: -90px;
+    width: 290px;
+  }
+
+  .experiencia > .experiencia-empresa-container {
+    margin-top: -120px;
+    margin-left: 110px;
+    width: 680px;
+  }
+
+  .experiencia > .experiencia-empresa-container > .experiencia-empresa {
+    height: 180px;
+  }
+
+  .experiencia
+    > .experiencia-empresa-container
+    > .experiencia-empresa
+    > .experiencia-ano {
+    left: -106px;
+    top: 16px;
+    font-size: 18px;
+  }
+
+  .experiencia
+    > .experiencia-empresa-container
+    > .experiencia-empresa
+    > .experiencia-nome {
+    margin: -10px 0px 100px 20px;
+    font-size: 18px;
+  }
+
+  .experiencia
+    > .experiencia-empresa-container
+    > .experiencia-empresa
+    > .experiencia-profissao {
+    margin-top: -120px;
+    font-size: 18px;
+  }
+
+  .experiencia > .experiencia-empresa-container > .experiencia-empresa > ul {
+    margin: 24px 0 0 40px;
+    font-size: 16px;
+  }
+
+  .experiencia > .experiencia-empresa > ul::before {
+    content: "";
+    display: block;
+    width: 14px;
+    height: 14px;
+    background: url("../imagens/decoracao/ellipse.svg") no-repeat center;
+    position: absolute;
+  }
+}
+
+/* -------------------------------- */
 /* -----MAX-WIDTH: 768PX -----------*/
 /* -------------------------------- */
 @media (max-width: 768.99px) {
@@ -385,6 +453,9 @@
     position: absolute;
   }
 }
+
+
+
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 720PX -----------*/
