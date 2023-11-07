@@ -195,7 +195,7 @@
     .header {
       padding: 18px 8px;
       margin: 8px;
-      background-color: yellowgreen;
+      /* background-color: yellowgreen; */
     }
   
     .header img {
@@ -255,7 +255,7 @@
   .header {
     padding: 18px 8px;
     margin: 8px;
-    background-color: green;
+    /* background-color: green; */
   }
 
   .header img {

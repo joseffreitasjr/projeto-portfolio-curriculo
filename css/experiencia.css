@@ -743,8 +743,8 @@
       max-width: 412px;
       margin: 20px 8px;
       height: 708px;
-      background-color: indigo;
-      border: 2px solid black;
+      /* background-color: indigo; */
+      /* border: 2px solid black; */
       grid-template-columns: 1fr;
     }
   
@@ -757,7 +757,7 @@
     .experiencia > .experiencia-empresa-container {
       margin-top: -160px;
       margin-left: -2px;
-      width: 316px;
+      width: 338px;
     }
   
     .experiencia > .experiencia-empresa-container > .experiencia-empresa {
