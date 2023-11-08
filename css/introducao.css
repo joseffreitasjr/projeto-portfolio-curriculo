@@ -447,6 +447,7 @@
   .introducao {
     height: 310px;
     margin: 0px 8px;
+    border: 2px solid black;
   }
   .introducao > .foto-perfil {
     display: none;
