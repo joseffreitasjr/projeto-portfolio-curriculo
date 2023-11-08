@@ -884,13 +884,13 @@
     height: 708px;
     width: 310px;
     /* background-color: indigo; */
-    /* border: 2px solid black; */
+    border: 2px solid black;
     grid-template-columns: 1fr;
   }
 
   .experiencia > .experiencia-titulo {
     margin-top: -120px;
-    margin-left: -10px;
+    margin-left: 10px;
     width: 240px;
   }
 
