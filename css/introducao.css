@@ -273,7 +273,7 @@
 @media (max-width: 800.99px) {
   .introducao {
     height: 260px;
-    margin: -10px 23px;
+    margin: 10px 23px;
     background-color: yellow;
   }
 
