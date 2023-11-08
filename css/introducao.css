@@ -232,6 +232,7 @@
   .introducao {
     height: 260px;
     margin: 0 23px;
+    background-color: chocolate;
   }
 
   .introducao > .foto-perfil {
@@ -276,6 +277,7 @@
   .introducao {
     height: 260px;
     margin: 0 23px;
+    background-color: blue;
   }
 
   .introducao > .foto-perfil {
@@ -362,7 +364,6 @@
 /* -------------------------------- */
 /* -----MAX-WIDTH: 425PX -----------*/
 /* ------------PRONTO-------------------- */
-/* Exibição para celular Samsung J8 */
 /* @media (min-width: 376px) and (max-width: 425.99px) { */
 @media (max-width: 425.99px) {
   .introducao {
@@ -439,11 +440,11 @@
 
 /* --------------------------------- */
 /* ------- MAX-WIDTH: 413PX -------- */
-@media (max-width: 413.99px) {
+/* @media (max-width: 413.99px) {
   .introducao {
     height: 310px;
     margin: 0px 8px;
-    /* border: 2px solid black; */
+    /* border: 2px solid black; 
   }
   .introducao > .foto-perfil {
     display: none;
@@ -472,13 +473,12 @@
   .introducao .objetivo-descricao::before {
     display: none;
   }
-}
+} */
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 412PX -----------*/
 /* ------------PRONTO-------------------- */
-/* Exibição para celular Samsung J8 */
-/* @media (min-width: 376px) and (max-width: 425.99px) { */
+/* Exibição para celular de pé Samsung J8 */
 @media (max-width: 412.99px) {
   .introducao {
     height: 310px;

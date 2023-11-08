@@ -323,18 +323,18 @@
 @media (max-width: 821.99px) {
   .experiencia {
     max-width: 900px;
-    margin: 30px 20px;
-    height: 600px;
+    margin: 40px 20px;
+    height: 548px;
     /* border: 2px solid black; */
   }
 
   .experiencia > .experiencia-titulo {
-    margin-top: -90px;
+    margin-top: -60px;
     width: 290px;
   }
 
   .experiencia > .experiencia-empresa-container {
-    margin-top: -120px;
+    margin-top: -100px;
     margin-left: 110px;
     width: 588px;
   }
@@ -878,14 +878,9 @@
 /* @media (min-width: 376px) and (max-width: 425.99px) { */
 @media (max-width: 412.99px) {
   .experiencia {
-    /* max-width: 412px; */
-    margin-top: 10px;
-    margin-left: 8px;
     margin: 10px 8px;
     height: 708px;
     width: 332px;
-    /* background-color: indigo; */
-    /* border: 2px solid black; */
     grid-template-columns: 1fr;
   }
 
@@ -896,9 +891,6 @@
   }
 
   .experiencia > .experiencia-empresa-container {
-    /* margin-top: -160px; */
-    /* margin-left: 0px; */
-    /* margin-right: 800px; */
     width: 100%;
   }
 
