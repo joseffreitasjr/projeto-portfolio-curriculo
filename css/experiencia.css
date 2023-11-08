@@ -456,9 +456,8 @@
 /* -------------------------------- */
 @media (max-width: 800.99px) {
   .experiencia {
-    margin: -260px 20px;
+    margin: -20px 20px;
     height: 588px;
-    /* background-color: darkgreen; */
   }
 
   .experiencia > .experiencia-titulo {
