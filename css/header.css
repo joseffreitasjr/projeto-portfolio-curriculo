@@ -80,6 +80,28 @@
 }
 
 /* -------------------------------- */
+/* -----MAX-WIDTH: 915PX -----------*/
+/* ---------PRONTO----------------- */
+@media (max-width: 915.99px) {
+  .header {
+    padding: 10px 18px;
+    margin: 1.375rem;
+  }
+
+  .header img {
+    width: 26.875rem;
+  }
+
+  .header-menu {
+    width: 21.625rem;
+  }
+
+  .header-menu a {
+    font-size: 1.25rem;
+  }
+}
+
+/* -------------------------------- */
 /* -----MAX-WIDTH: 900PX -----------*/
 /* Tela deitada no Samsung */
 /* -------------------------------- */
@@ -194,7 +216,6 @@
   .header {
     padding: 16px 6px;
     margin: 8px;
-    /* background-color: yellow; */
   }
 
   .header img {
@@ -233,7 +254,6 @@
   .header-menu {
     width: 18.75rem;
     margin-left: -4px;
-    /* background-color: cadetblue; */
   }
 
   .header-menu a {
@@ -246,7 +266,6 @@
 /* -----MAX-WIDTH: 414PX -----------*/
 /* ------------PRONTO-------------------- */
 /* Exibição para celular Samsung J8 */
-/* @media (min-width: 413px) and (max-width: 414.99px) {*/
 @media (max-width: 414.99px) {
   .header {
     padding: 18px 8px;
@@ -262,7 +281,6 @@
   .header-menu {
     width: 18.75rem;
     margin-left: -4px;
-    /* background-color: cadetblue; */
   }
 
   .header-menu a {
@@ -274,13 +292,11 @@
 /* -------------------------------- */
 /* -----MAX-WIDTH: 412PX -----------*/
 /* ------------PRONTO-------------------- */
-/* Exibição para celular Samsung J8 */
-/* @media (min-width: 376px) and (max-width: 425.99px) { ajustar valores*/
+/* Exibição para celular de pé Samsung J8 */
 @media (max-width: 412.99px) {
   .header {
     padding: 18px 8px;
     margin: 8px;
-    /* background-color: green; */
   }
 
   .header img {
@@ -291,7 +307,6 @@
   .header-menu {
     width: 18.75rem;
     margin-left: -4px;
-    /* background-color: cadetblue; */
   }
 
   .header-menu a {
