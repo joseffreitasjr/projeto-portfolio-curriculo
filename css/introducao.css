@@ -140,8 +140,7 @@
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 915PX -----------*/
-/* Tela deitada no Samsung */
-/* -------------------------------- */
+/* ---------PRONTO ---------------- */
 @media (max-width: 915.99px) {
   .introducao {
     margin: 0px 22px;
@@ -165,7 +164,6 @@
 
   .introducao > .objetivo > .objetivo-descricao {
     font-size: 46px;
-    /* text-align: center; */
   }
 
   .introducao > .objetivo > .local {
@@ -185,7 +183,6 @@
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 900PX -----------*/
-/* Tela deitada no Samsung */
 /* -------------------------------- */
 @media (max-width: 900.99px) {
   .introducao {
@@ -228,6 +225,7 @@
 /* -------------------------------- */
 /* -----MAX-WIDTH: 821PX -----------*/
 /* ----------Tela deitada Samsung J8-------- */
+/* ----------PRONTO---------------------- */
 @media (max-width: 821.99px) {
   .introducao {
     height: 260px;
@@ -276,7 +274,6 @@
   .introducao {
     height: 260px;
     margin: 0 23px;
-    background-color: chocolate;
   }
 
   .introducao > .foto-perfil {
@@ -321,7 +318,6 @@
   .introducao {
     height: 260px;
     margin: 0 23px;
-    background-color: blue;
   }
 
   .introducao > .foto-perfil {
