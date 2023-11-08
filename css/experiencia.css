@@ -19,7 +19,7 @@
   gap: 100px;
   position: relative;
   height: 694px;
-  background-color: var(--cinza5);
+  /* background-color: var(--cinza5); */
 }
 
 .experiencia > .experiencia-titulo {
@@ -125,7 +125,7 @@
     max-width: 2560px;
     margin: 50px;
     height: 1300px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
   }
 
   .experiencia > .experiencia-titulo {
@@ -191,7 +191,7 @@
     max-width: 1024px;
     margin: 40px 25px;
     height: 700px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
   }
 
   .experiencia > .experiencia-titulo {
@@ -258,7 +258,7 @@
     max-width: 900px;
     margin: 40px 20px;
     height: 600px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
   }
 
   .experiencia > .experiencia-titulo {
@@ -325,7 +325,7 @@
     max-width: 900px;
     margin: 30px 20px;
     height: 600px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
   }
 
   .experiencia > .experiencia-titulo {
@@ -391,8 +391,8 @@
     max-width: 768px;
     /* margin: 40px 20px; */
     height: 560px;
-    background-color: var(--cinza5);
-    border: 2px solid black;
+    /* background-color: var(--cinza5); */
+    /* border: 2px solid black; */
   }
 
   .experiencia > .experiencia-titulo {
@@ -458,8 +458,8 @@
     max-width: 768px;
     /* margin: 40px 20px; */
     height: 560px;
-    background-color: var(yellowgreen);
-    border: 2px solid black;
+    /* background-color: var(yellowgreen); */
+    /* border: 2px solid black; */
   }
 
   .experiencia > .experiencia-titulo {
@@ -527,8 +527,8 @@
     max-width: 668px;
     margin: 40px 8px;
     height: 560px;
-    background-color: var(--cinza5);
-    border: 2px solid black;
+    /* background-color: var(--cinza5); */
+    /* border: 2px solid black; */
   }
 
   .experiencia > .experiencia-titulo {
@@ -594,8 +594,8 @@
     max-width: 560px;
     margin: 40px 8px;
     height: 700px;
-    background-color: var(--cinza5);
-    border: 2px solid black;
+    /* background-color: var(--cinza5); */
+    /* border: 2px solid black; */
   }
 
   .experiencia > .experiencia-titulo {
@@ -665,8 +665,8 @@
     /* max-width: 425px; */
     margin: 6px 8px;
     height: 708px;
-    background-color: blue;
-    border: 2px solid black;
+    /* background-color: blue; */
+    /* border: 2px solid black; */
     grid-template-columns: 1fr;
   }
 
@@ -736,8 +736,8 @@
     max-width: 414px;
     margin: -60px 8px;
     height: 708px;
-    background-color: violet;
-    border: 2px solid black;
+    /* background-color: violet; */
+    /* border: 2px solid black; */
     grid-template-columns: 1fr;
   }
 
@@ -808,7 +808,7 @@
     margin: 10px 8px;
     height: 708px;
     width: 315px;
-    background-color: pink;
+    /* background-color: pink; */
     /* border: 2px solid black; */
     grid-template-columns: 1fr;
   }
@@ -879,11 +879,11 @@
 @media (max-width: 412.99px) {
   .experiencia {
     max-width: 412px;
-    margin-top: -30px;
+    margin-top: 10px;
     margin-left: 8px;
     height: 708px;
-    width: 333px;
-    background-color: indigo;
+    width: 310px;
+    /* background-color: indigo; */
     /* border: 2px solid black; */
     grid-template-columns: 1fr;
   }
