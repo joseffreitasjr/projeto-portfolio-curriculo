@@ -450,9 +450,6 @@
   }
 }
 
-
-
-
 /* -------------------------------- */
 /* -----MAX-WIDTH: 720PX -----------*/
 /* -------------------------------- */
@@ -663,71 +660,71 @@
 /* ------------PRONTO-------------------- */
 /* Exibição para celular Samsung J8 */
 /* @media (min-width: 413px) and (max-width: 414.99px) { */
-  @media (max-width: 425.99px) {
-    .experiencia {
-      /* max-width: 425px; */
-      margin: 6px 8px;
-      height: 708px;
-      background-color: blue;
-      border: 2px solid black;
-      grid-template-columns: 1fr;
-    }
-  
-    .experiencia > .experiencia-titulo {
-      margin-top: -120px;
-      width: 240px;
-    }
-  
-    .experiencia > .experiencia-empresa-container {
-      margin-top: -160px;
-      margin-left: -2px;
-      width: 356px;
-    }
-  
-    .experiencia > .experiencia-empresa-container > .experiencia-empresa {
-      height: 228px;
-    }
-  
-    .experiencia
-      > .experiencia-empresa-container
-      > .experiencia-empresa
-      > .experiencia-ano {
-      display: none;
-    }
-  
-    .experiencia
-      > .experiencia-empresa-container
-      > .experiencia-empresa
-      > .experiencia-nome {
-      margin: 10px 0px 100px 20px;
-      font-size: 18px;
-    }
-  
-    .experiencia
-      > .experiencia-empresa-container
-      > .experiencia-empresa
-      > .experiencia-profissao {
-      display: block;
-      align-self: flex-start;
-      margin-top: -90px;
-      margin-left: 20px;
-      font-size: 16px;
-    }
-  
-    .experiencia > .experiencia-empresa-container > .experiencia-empresa > ul {
-      margin: 10px 0 0 20px;
-      font-size: 14px;
-    }
-  
-    .experiencia > .experiencia-empresa > ul::before {
-      content: "";
-      display: block;
-      width: 14px;
-      height: 14px;
-      background: url("../imagens/decoracao/ellipse.svg") no-repeat center;
-      position: absolute;
-    }
+@media (max-width: 425.99px) {
+  .experiencia {
+    /* max-width: 425px; */
+    margin: 6px 8px;
+    height: 708px;
+    background-color: blue;
+    border: 2px solid black;
+    grid-template-columns: 1fr;
   }
+
+  .experiencia > .experiencia-titulo {
+    margin-top: -120px;
+    width: 240px;
+  }
+
+  .experiencia > .experiencia-empresa-container {
+    margin-top: -160px;
+    margin-left: -2px;
+    width: 356px;
+  }
+
+  .experiencia > .experiencia-empresa-container > .experiencia-empresa {
+    height: 228px;
+  }
+
+  .experiencia
+    > .experiencia-empresa-container
+    > .experiencia-empresa
+    > .experiencia-ano {
+    display: none;
+  }
+
+  .experiencia
+    > .experiencia-empresa-container
+    > .experiencia-empresa
+    > .experiencia-nome {
+    margin: 10px 0px 100px 20px;
+    font-size: 18px;
+  }
+
+  .experiencia
+    > .experiencia-empresa-container
+    > .experiencia-empresa
+    > .experiencia-profissao {
+    display: block;
+    align-self: flex-start;
+    margin-top: -90px;
+    margin-left: 20px;
+    font-size: 16px;
+  }
+
+  .experiencia > .experiencia-empresa-container > .experiencia-empresa > ul {
+    margin: 10px 0 0 20px;
+    font-size: 14px;
+  }
+
+  .experiencia > .experiencia-empresa > ul::before {
+    content: "";
+    display: block;
+    width: 14px;
+    height: 14px;
+    background: url("../imagens/decoracao/ellipse.svg") no-repeat center;
+    position: absolute;
+  }
+}
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 414PX -----------*/
@@ -805,72 +802,146 @@
 /* ------------PRONTO-------------------- */
 /* Exibição para celular Samsung J8 */
 /* @media (min-width: 376px) and (max-width: 425.99px) { */
-  @media (max-width: 412.99px) {
-    .experiencia {
-      max-width: 412px;
-      margin: 10px 8px;
-      height: 708px;
-      width: 315px;
-      background-color: indigo;
-      /* border: 2px solid black; */
-      grid-template-columns: 1fr;
-    }
-  
-    .experiencia > .experiencia-titulo {
-      margin-top: -120px;
-      margin-left: -10px;
-      width: 240px;
-    }
-  
-    .experiencia > .experiencia-empresa-container {
-      /* margin-top: -160px; */
-      margin-left: 0px;
-      /* margin-right: 800px; */
-      width: 100%;
-    }
-  
-    .experiencia > .experiencia-empresa-container > .experiencia-empresa {
-      height: 228px;
-    }
-  
-    .experiencia
-      > .experiencia-empresa-container
-      > .experiencia-empresa
-      > .experiencia-ano {
-      display: none;
-    }
-  
-    .experiencia
-      > .experiencia-empresa-container
-      > .experiencia-empresa
-      > .experiencia-nome {
-      margin: 10px 0px 100px 20px;
-      font-size: 18px;
-    }
-  
-    .experiencia
-      > .experiencia-empresa-container
-      > .experiencia-empresa
-      > .experiencia-profissao {
-      display: block;
-      align-self: flex-start;
-      margin-top: -90px;
-      margin-left: 20px;
-      font-size: 16px;
-    }
-  
-    .experiencia > .experiencia-empresa-container > .experiencia-empresa > ul {
-      margin: 10px 0 0 20px;
-      font-size: 14px;
-    }
-  
-    .experiencia > .experiencia-empresa > ul::before {
-      content: "";
-      display: block;
-      width: 14px;
-      height: 14px;
-      background: url("../imagens/decoracao/ellipse.svg") no-repeat center;
-      position: absolute;
-    }
+@media (max-width: 413.99px) {
+  .experiencia {
+    max-width: 413px;
+    margin: 10px 8px;
+    height: 708px;
+    width: 315px;
+    background-color: pink;
+    /* border: 2px solid black; */
+    grid-template-columns: 1fr;
   }
-  
+
+  .experiencia > .experiencia-titulo {
+    margin-top: -120px;
+    margin-left: -10px;
+    width: 240px;
+  }
+
+  .experiencia > .experiencia-empresa-container {
+    /* margin-top: -160px; */
+    margin-left: 0px;
+    /* margin-right: 800px; */
+    width: 100%;
+  }
+
+  .experiencia > .experiencia-empresa-container > .experiencia-empresa {
+    height: 228px;
+  }
+
+  .experiencia
+    > .experiencia-empresa-container
+    > .experiencia-empresa
+    > .experiencia-ano {
+    display: none;
+  }
+
+  .experiencia
+    > .experiencia-empresa-container
+    > .experiencia-empresa
+    > .experiencia-nome {
+    margin: 10px 0px 100px 20px;
+    font-size: 18px;
+  }
+
+  .experiencia
+    > .experiencia-empresa-container
+    > .experiencia-empresa
+    > .experiencia-profissao {
+    display: block;
+    align-self: flex-start;
+    margin-top: -90px;
+    margin-left: 20px;
+    font-size: 16px;
+  }
+
+  .experiencia > .experiencia-empresa-container > .experiencia-empresa > ul {
+    margin: 10px 0 0 20px;
+    font-size: 14px;
+  }
+
+  .experiencia > .experiencia-empresa > ul::before {
+    content: "";
+    display: block;
+    width: 14px;
+    height: 14px;
+    background: url("../imagens/decoracao/ellipse.svg") no-repeat center;
+    position: absolute;
+  }
+}
+
+/* -------------------------------- */
+/* -----MAX-WIDTH: 412PX -----------*/
+/* ------------PRONTO-------------------- */
+/* Exibição para celular Samsung J8 */
+/* @media (min-width: 376px) and (max-width: 425.99px) { */
+@media (max-width: 412.99px) {
+  .experiencia {
+    max-width: 412px;
+    margin-top: -30px;
+    margin-left: 8px;
+    height: 708px;
+    width: 333px;
+    background-color: indigo;
+    /* border: 2px solid black; */
+    grid-template-columns: 1fr;
+  }
+
+  .experiencia > .experiencia-titulo {
+    margin-top: -120px;
+    margin-left: -10px;
+    width: 240px;
+  }
+
+  .experiencia > .experiencia-empresa-container {
+    /* margin-top: -160px; */
+    /* margin-left: 0px; */
+    /* margin-right: 800px; */
+    width: 100%;
+  }
+
+  .experiencia > .experiencia-empresa-container > .experiencia-empresa {
+    height: 228px;
+  }
+
+  .experiencia
+    > .experiencia-empresa-container
+    > .experiencia-empresa
+    > .experiencia-ano {
+    display: none;
+  }
+
+  .experiencia
+    > .experiencia-empresa-container
+    > .experiencia-empresa
+    > .experiencia-nome {
+    margin: 10px 0px 100px 20px;
+    font-size: 18px;
+  }
+
+  .experiencia
+    > .experiencia-empresa-container
+    > .experiencia-empresa
+    > .experiencia-profissao {
+    display: block;
+    align-self: flex-start;
+    margin-top: -90px;
+    margin-left: 20px;
+    font-size: 16px;
+  }
+
+  .experiencia > .experiencia-empresa-container > .experiencia-empresa > ul {
+    margin: 10px 0 0 20px;
+    font-size: 14px;
+  }
+
+  .experiencia > .experiencia-empresa > ul::before {
+    content: "";
+    display: block;
+    width: 14px;
+    height: 14px;
+    background: url("../imagens/decoracao/ellipse.svg") no-repeat center;
+    position: absolute;
+  }
+}
