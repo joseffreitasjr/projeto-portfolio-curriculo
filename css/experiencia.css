@@ -736,7 +736,7 @@
 /* @media (min-width: 413px) and (max-width: 414.99px) { */
 @media (max-width: 414.99px) {
   .experiencia {
-    max-width: 425px;
+    max-width: 414px;
     margin: -60px 8px;
     height: 708px;
     /* background-color: violet; */
@@ -811,7 +811,7 @@
       margin: 10px 8px;
       height: 708px;
       width: 315px;
-      /* background-color: indigo; */
+      background-color: indigo;
       /* border: 2px solid black; */
       grid-template-columns: 1fr;
     }
