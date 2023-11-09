@@ -98,6 +98,47 @@
 }
 
 /* -------------------------------- */
+/* -----MAX-WIDTH: 1440PX---- ------*/
+/* ---------PRONTO----------------- */
+@media (max-width: 1440.99px) {
+  .introducao {
+    margin: 0 60px;
+    height: 400px;
+  }
+
+  .introducao > .foto-perfil {
+    width: 376px;
+    height: 400px;
+  }
+
+  .introducao > .objetivo {
+    height: 340px;
+  }
+
+  .introducao > .objetivo > .objetivo-titulo {
+    width: 280px;
+    margin: -4px 0 32px -54px;
+  }
+
+  .introducao > .objetivo > .objetivo-descricao {
+    font-size: 42px;
+    margin-top: 18px;
+  }
+
+  .introducao > .objetivo > .local {
+    font-size: 26px;
+    margin-left: -44px;
+  }
+
+  .introducao .objetivo-descricao::before {
+    width: 110px;
+    height: 80px;
+    top: -14px;
+    left: -80px;
+  }
+}
+
+/* -------------------------------- */
 /* -----MAX-WIDTH: 1024PX---- ------*/
 /* -------------------------------- */
 /* @media (min-width: 965px) and (max-width: 1024.99px) { */
@@ -179,8 +220,6 @@
   }
 }
 
-
-
 /* -------------------------------- */
 /* -----MAX-WIDTH: 900PX -----------*/
 /* -------------------------------- */
@@ -201,16 +240,16 @@
   }
 
   .introducao > .objetivo > .objetivo-titulo {
-    width: 190px;
-    margin: -10px 20px 10px -46px;
+    width: 240px;
+    margin: -2px 20px 10px -6px;
   }
 
   .introducao > .objetivo > .objetivo-descricao {
-    font-size: 2.1rem;
+    font-size: 36px;
   }
 
   .introducao > .objetivo > .local {
-    font-size: 20px;
+    font-size: 22px;
     margin-left: -50px;
   }
 
@@ -273,7 +312,7 @@
 @media (max-width: 800.99px) {
   .introducao {
     height: 260px;
-    margin: 10px 23px;
+    margin: 0px 23px;
   }
 
   .introducao > .foto-perfil {
@@ -288,26 +327,26 @@
   }
 
   .introducao > .objetivo > .objetivo-titulo {
-    width: 180px;
+    width: 220px;
     margin: -10px 0 20px -6px;
   }
 
   .introducao > .objetivo > .objetivo-descricao {
-    font-size: 38px;
+    font-size: 36px;
     margin: 4px 0 0 36px;
   }
 
   .introducao > .objetivo > .local {
-    font-size: 20px;
-    margin-top: 24px;
+    font-size: 24px;
+    margin-top: 10px;
     margin-left: 0;
   }
 
   .introducao .objetivo-descricao::before {
-    width: 6.25rem;
-    height: 3.75rem;
-    top: -8px;
-    left: -78px;
+    width: 90px;
+    height: 50px;
+    top: -4px;
+    left: -74px;
   }
 }
 
@@ -606,7 +645,6 @@
   }
 }
 
-
 /* -------------------------------- */
 /* -----MAX-WIDTH: 393PX -----------*/
 /* -------------------------------- */
@@ -615,7 +653,7 @@
     height: 310px;
     margin: 0px 9px;
   }
-  
+
   .introducao > .foto-perfil {
     display: none;
   }
@@ -641,9 +679,6 @@
     display: none;
   }
 }
-
-
-
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 375PX -----------*/

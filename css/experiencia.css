@@ -13,9 +13,8 @@
     "experiencia-empresa experiencia-empresa"
     "experiencia-empresa experiencia-empresa";
 
-  max-width: 1920px;
   padding: 40px 20px;
-  margin: 30px;
+  margin: 0 30px;
   gap: 100px;
   position: relative;
   height: 694px;
@@ -24,7 +23,7 @@
 
 .experiencia > .experiencia-titulo {
   grid-area: experiencia-titulo;
-  margin-top: -80px;
+  margin-top: -40px;
   margin-left: 10px;
   width: 400px;
   justify-self: center;
@@ -36,7 +35,7 @@
   grid-template-rows: repeat(3, 1fr);
   margin-top: -80px;
   margin-left: 236px;
-  width: 900px;
+  width: 1100px;
   position: absolute;
 }
 
@@ -183,6 +182,115 @@
 }
 
 /* -------------------------------- */
+/* -----MAX-WIDTH: 1440PX ----------*/
+/* ----------PRONTO---------------------- */
+/* @media (min-width: 1025px) and (max-width: 1920.99px) { */
+@media (max-width: 1440px) {
+  .experiencia {
+    padding: 40px 20px;
+    margin: 10px 60px;
+    gap: 100px;
+    position: relative;
+    height: 694px;
+  }
+
+  .experiencia > .experiencia-titulo {
+    grid-area: experiencia-titulo;
+    margin-top: -40px;
+    margin-left: 10px;
+    width: 400px;
+    justify-self: center;
+    align-self: center;
+  }
+
+  .experiencia > .experiencia-empresa-container {
+    grid-area: experiencia-empresa;
+    grid-template-rows: repeat(3, 1fr);
+    margin-top: -80px;
+    margin-left: 156px;
+    width: 1000px;
+    position: absolute;
+  }
+
+  .experiencia > .experiencia-empresa-container > .experiencia-empresa {
+    display: flex;
+    grid-area: 1 / 1 / 2 / 3;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 200px;
+  }
+
+  .experiencia
+    > .experiencia-empresa-container
+    > .experiencia-empresa
+    > .experiencia-ano {
+    left: -108px;
+    top: 14px;
+    position: relative;
+    font-size: 20px;
+  }
+
+  .experiencia
+    > .experiencia-empresa-container
+    > .experiencia-empresa:nth-child(odd) {
+    background-color: var(--cinza1);
+  }
+
+  .experiencia
+    > .experiencia-empresa-container
+    > .experiencia-empresa:nth-child(even) {
+    background-color: var(--cinza3);
+  }
+
+  .experiencia
+    > .experiencia-empresa-container
+    > .experiencia-empresa
+    > .experiencia-nome {
+    margin: -10px 0px 30px 20px;
+    height: 20px;
+    color: var(--preto);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+  }
+
+  .experiencia
+    > .experiencia-empresa-container
+    > .experiencia-empresa
+    > .experiencia-profissao {
+    font-weight: 600;
+    height: 20px;
+    align-self: flex-end;
+    margin: -50px 20px 0 0;
+    color: var(--preto);
+    font-size: 20px;
+    font-style: normal;
+    line-height: 32px;
+  }
+
+  .experiencia > .experiencia-empresa-container > .experiencia-empresa > ul {
+    position: relative;
+    margin: 4px 25px;
+    line-height: 1.6;
+    color: var(--preto);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  .experiencia > .experiencia-empresa > ul::before {
+    content: "";
+    display: block;
+    width: 14px;
+    height: 14px;
+    background: url("../imagens/decoracao/ellipse.svg") no-repeat center;
+    position: absolute;
+  }
+}
+
+/* -------------------------------- */
 /* -----MAX-WIDTH: 1024PX---- ------*/
 /* -------------------------------- */
 /* @media (min-width: 965px) and (max-width: 1024.99px) { */
@@ -315,16 +423,12 @@
   }
 }
 
-
-
 /* -------------------------------- */
 /* -----MAX-WIDTH: 900PX -----------*/
-/* Tela deitada no Samsung */
 /* -------------------------------- */
 @media (max-width: 900.99px) {
   .experiencia {
-    max-width: 900px;
-    margin: 40px 20px;
+    margin: -395px 22px;
     height: 600px;
     /* border: 2px solid black; */
   }
@@ -335,7 +439,7 @@
   }
 
   .experiencia > .experiencia-empresa-container {
-    margin-top: -120px;
+    /* margin-top: 120px; */
     margin-left: 110px;
     width: 680px;
   }
@@ -456,7 +560,7 @@
 /* -------------------------------- */
 @media (max-width: 800.99px) {
   .experiencia {
-    margin: 16px 20px;
+    margin: -236px 23px;
     height: 568px;
   }
 
@@ -578,7 +682,6 @@
     position: absolute;
   }
 }
-
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 768PX -----------*/
