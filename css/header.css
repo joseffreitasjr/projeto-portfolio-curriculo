@@ -80,9 +80,31 @@
 }
 
 /* -------------------------------- */
+/* -----MAX-WIDTH: 1031PX---- ------*/
+/* -----------PRONTO--------------- */
+@media (max-width: 1031.99px) {
+  .header {
+    padding: 14px 18px;
+    margin: 25.6px;
+  }
+
+  .header img {
+    width: 32rem;
+  }
+
+  .header-menu {
+    width: 23rem;
+  }
+
+  .header-menu a {
+    font-size: 20px;
+  }
+}
+
+/* -------------------------------- */
 /* -----MAX-WIDTH: 1024PX---- ------*/
 /* -----------PRONTO--------------- */
-@media (max-width: 1024px) {
+@media (max-width: 1024.99px) {
   .header {
     padding: 10px 18px;
     margin: 25.6px;
@@ -142,6 +164,33 @@
   .header-menu {
     width: 30rem;
     /* background-color: yellowgreen; */
+  }
+
+  .header-menu a {
+    font-size: 20px;
+  }
+}
+
+/* -------------------------------- */
+/* -----MAX-WIDTH: 896PX -----------*/
+/* -------------------------------- */
+@media (max-width: 896.99px) {
+  .header {
+    flex-wrap: wrap;
+    padding: 10px 18px;
+    margin: 22px;
+    justify-content: center;
+    /* background-color: chocolate; */
+  }
+
+  .header img {
+    padding-top: 10px;
+    width: 586px;
+  }
+
+  .header-menu {
+    width: 440px;
+    margin-top: 12px;
   }
 
   .header-menu a {
@@ -231,9 +280,6 @@
   }
 }
 
-
-
-
 /* -------------------------------- */
 /* -----MAX-WIDTH: 768PX -----------*/
 /* -------------------------------- */
@@ -285,6 +331,33 @@
   }
   .header-menu a {
     font-size: 1rem;
+    line-height: 1;
+  }
+}
+
+/* -------------------------------- */
+/* -----MAX-WIDTH: 688PX -----------*/
+/* ------------PRONTO-------------------- */
+/* Exibição horizontal para celular Samsung A6 (mãe) */
+@media (max-width: 688.99px) {
+  .header {
+    padding: 16px 6px;
+    margin: 8px;
+  }
+
+  .header img {
+    width: 30rem;
+    margin-left: 8px;
+  }
+
+  .header-menu {
+    width: 380px;
+    /* margin-left: 8px; */
+    /* background-color: purple; */
+  }
+
+  .header-menu a {
+    font-size: 20px;
     line-height: 1;
   }
 }
@@ -400,45 +473,48 @@
 /* -------------------------------- */
 /* -----MAX-WIDTH: 393PX -----------*/
 /* -----------PRONTO--------------- */
-  @media (max-width: 393.99px) {
-    .header {
-      padding: 16px 6px;
-    }
-  
-    .header img {
-      width: 320px;
-    }
-  
-    .header-menu {
-      width: 304px;
-    }
-    .header-menu a {
-      font-size: 16px;
-      line-height: 1;
-    }
-  }
-  
-
-
-/* -------------------------------- */
-/* -----MAX-WIDTH: 375PX -----------*/
-/* -------------------------------- */
-/* @media (min-width: 321px) and (max-width: 375.99px) { */
-@media (max-width: 375.99px) {
+@media (max-width: 393.99px) {
   .header {
     padding: 16px 6px;
   }
 
   .header img {
-    width: 18rem;
+    width: 320px;
   }
 
   .header-menu {
-    width: 18.75rem;
-    margin-left: 2px;
+    width: 304px;
   }
   .header-menu a {
-    font-size: 0.89rem;
+    font-size: 16px;
+    line-height: 1;
+  }
+}
+
+/* -------------------------------- */
+/* -----MAX-WIDTH: 375PX -----------*/
+/* -------------------------------- */
+@media (max-width: 375.99px) {
+  .header {
+    padding: 16px 6px;
+    margin: 10px;
+    /* background-color: cadetblue; */
+    justify-content: center;
+    height: 140px;
+  }
+
+  .header img {
+    width: 320px;
+  }
+
+  .header-menu {
+    width: 290px;
+    margin: 0 4px;
+    padding: 20px;
+    /* background-color: brown; */
+  }
+  .header-menu a {
+    font-size: 17px;
     line-height: 1;
   }
 }

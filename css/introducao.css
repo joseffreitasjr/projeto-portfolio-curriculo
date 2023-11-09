@@ -139,6 +139,48 @@
 }
 
 /* -------------------------------- */
+/* -----MAX-WIDTH: 1031PX---- ------*/
+/* -------------------------------- */
+/* @media (min-width: 965px) and (max-width: 1024.99px) { */
+@media (max-width: 1031.99px) {
+  .introducao {
+    margin: 0 25px;
+    height: 400px;
+  }
+
+  .introducao > .foto-perfil {
+    width: 376px;
+    height: 400px;
+  }
+
+  .introducao > .objetivo {
+    height: 340px;
+  }
+
+  .introducao > .objetivo > .objetivo-titulo {
+    width: 236px;
+    margin: -2px 0 32px -108px;
+  }
+
+  .introducao > .objetivo > .objetivo-descricao {
+    font-size: 46px;
+    margin-top: 18px;
+  }
+
+  .introducao > .objetivo > .local {
+    font-size: 24px;
+    margin-left: -90px;
+  }
+
+  .introducao .objetivo-descricao::before {
+    width: 110px;
+    height: 80px;
+    top: -14px;
+    left: -80px;
+  }
+}
+
+/* -------------------------------- */
 /* -----MAX-WIDTH: 1024PX---- ------*/
 /* -------------------------------- */
 /* @media (min-width: 965px) and (max-width: 1024.99px) { */
@@ -224,6 +266,47 @@
 /* -----MAX-WIDTH: 900PX -----------*/
 /* -------------------------------- */
 @media (max-width: 900.99px) {
+  .introducao {
+    margin: 0px 22px;
+    height: 330px;
+  }
+
+  .introducao > .foto-perfil {
+    width: 356px;
+    height: 330px;
+  }
+
+  .introducao > .objetivo {
+    height: 290px;
+    padding: 20px;
+  }
+
+  .introducao > .objetivo > .objetivo-titulo {
+    width: 240px;
+    margin: -2px 20px 10px -6px;
+  }
+
+  .introducao > .objetivo > .objetivo-descricao {
+    font-size: 36px;
+  }
+
+  .introducao > .objetivo > .local {
+    font-size: 22px;
+    margin-left: -50px;
+  }
+
+  .introducao .objetivo-descricao::before {
+    width: 100px;
+    height: 70px;
+    top: -14px;
+    left: -78px;
+  }
+}
+
+/* -------------------------------- */
+/* -----MAX-WIDTH: 896PX -----------*/
+/* -----------PRONTO--------------- */
+@media (max-width: 896.99px) {
   .introducao {
     margin: 0px 22px;
     height: 330px;
@@ -484,6 +567,51 @@
 }
 
 /* -------------------------------- */
+/* -----MAX-WIDTH: 688PX -----------*/
+/* -------------------------------- */
+/* Exibição horizontal para celular Samsung A6 (mãe) */
+/* @media (min-width: 426px) and (max-width: 668.99px) { */
+@media (max-width: 688.99px) {
+  .introducao {
+    height: 250px;
+    margin: 0 8px;
+  }
+
+  .introducao > .foto-perfil {
+    width: 326px;
+    height: 250px;
+  }
+
+  .introducao > .objetivo {
+    flex-wrap: nowrap;
+    height: 180px;
+    padding: 20px;
+  }
+
+  .introducao > .objetivo > .objetivo-titulo {
+    width: 200px;
+    margin: 8px 0 20px -2px;
+  }
+
+  .introducao > .objetivo > .objetivo-descricao {
+    font-size: 32px;
+    margin: 4px 0 0 36px;
+  }
+
+  .introducao > .objetivo > .local {
+    font-size: 20px;
+    margin-top: 8px;
+  }
+
+  .introducao .objetivo-descricao::before {
+    width: 90px;
+    height: 50px;
+    top: -8px;
+    left: -72px;
+  }
+}
+
+/* -------------------------------- */
 /* -----MAX-WIDTH: 668PX -----------*/
 /* ------------PRONTO-------------------- */
 /* Exibição horizontal para celular Samsung A6 (mãe) */
@@ -686,7 +814,8 @@
 @media (max-width: 375.99px) {
   .introducao {
     height: 310px;
-    margin: 0px 9px;
+    margin: 0px 10px;
+    width: 342px;
   }
   .introducao > .foto-perfil {
     display: none;
@@ -697,7 +826,7 @@
   }
 
   .introducao > .objetivo > .objetivo-titulo {
-    width: 160px;
+    width: 190px;
     margin: 22px 0;
   }
 
@@ -706,7 +835,7 @@
   }
 
   .introducao > .objetivo > .local {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .introducao .objetivo-descricao::before {

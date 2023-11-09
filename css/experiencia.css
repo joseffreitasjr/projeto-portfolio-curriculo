@@ -288,6 +288,73 @@
     background: url("../imagens/decoracao/ellipse.svg") no-repeat center;
     position: absolute;
   }
+
+/* -------------------------------- */
+/* -----MAX-WIDTH: 1031PX---- ------*/
+/* -------------------------------- */
+/* @media (min-width: 965px) and (max-width: 1024.99px) { */
+  @media (max-width: 1031.99px) {
+    .experiencia {
+      max-width: 1024px;
+      margin: 22px 25px;
+      height: 690px;
+    }
+  
+    .experiencia > .experiencia-titulo {
+      margin-top: -100px;
+      width: 340px;
+    }
+  
+    .experiencia > .experiencia-empresa-container {
+      margin-top: -100px;
+      margin-left: 110px;
+      width: 780px;
+    }
+  
+    .experiencia > .experiencia-empresa-container > .experiencia-empresa {
+      height: 200px;
+    }
+  
+    .experiencia
+      > .experiencia-empresa-container
+      > .experiencia-empresa
+      > .experiencia-ano {
+      left: -106px;
+      top: 16px;
+      font-size: 20px;
+    }
+  
+    .experiencia
+      > .experiencia-empresa-container
+      > .experiencia-empresa
+      > .experiencia-nome {
+      margin: -10px 0px 100px 20px;
+      font-size: 20px;
+    }
+  
+    .experiencia
+      > .experiencia-empresa-container
+      > .experiencia-empresa
+      > .experiencia-profissao {
+      margin-top: -120px;
+      font-size: 20px;
+    }
+  
+    .experiencia > .experiencia-empresa-container > .experiencia-empresa > ul {
+      margin: 24px 0 0 40px;
+      font-size: 18px;
+    }
+  
+    .experiencia > .experiencia-empresa > ul::before {
+      content: "";
+      display: block;
+      width: 14px;
+      height: 14px;
+      background: url("../imagens/decoracao/ellipse.svg") no-repeat center;
+      position: absolute;
+    }
+  }
+
 }
 
 /* -------------------------------- */
@@ -365,7 +432,6 @@
     max-width: 900px;
     margin: 20px;
     height: 660px;
-    /* background-color: darkgreen; */
   }
 
   .experiencia > .experiencia-titulo {
@@ -422,15 +488,77 @@
     position: absolute;
   }
 }
-
-/* -------------------------------- */
-/* -----MAX-WIDTH: 900PX -----------*/
-/* -------------------------------- */
+/* ------------------------------------ */
+/* --------MAX-WIDTH: 900PX ----------- */
+/* ------------------------------------ */
 @media (max-width: 900.99px) {
   .experiencia {
     margin: -395px 22px;
     height: 600px;
-    /* border: 2px solid black; */
+  }
+
+  .experiencia > .experiencia-titulo {
+    margin-top: -90px;
+    width: 290px;
+  }
+
+  .experiencia > .experiencia-empresa-container {
+    /* margin-top: 120px; */
+    margin-left: 110px;
+    width: 680px;
+  }
+
+  .experiencia > .experiencia-empresa-container > .experiencia-empresa {
+    height: 180px;
+  }
+
+  .experiencia
+    > .experiencia-empresa-container
+    > .experiencia-empresa
+    > .experiencia-ano {
+    left: -106px;
+    top: 16px;
+    font-size: 18px;
+  }
+
+  .experiencia
+    > .experiencia-empresa-container
+    > .experiencia-empresa
+    > .experiencia-nome {
+    margin: -10px 0px 100px 20px;
+    font-size: 18px;
+  }
+
+  .experiencia
+    > .experiencia-empresa-container
+    > .experiencia-empresa
+    > .experiencia-profissao {
+    margin-top: -120px;
+    font-size: 18px;
+  }
+
+  .experiencia > .experiencia-empresa-container > .experiencia-empresa > ul {
+    margin: 24px 0 0 40px;
+    font-size: 16px;
+  }
+
+  .experiencia > .experiencia-empresa > ul::before {
+    content: "";
+    display: block;
+    width: 14px;
+    height: 14px;
+    background: url("../imagens/decoracao/ellipse.svg") no-repeat center;
+    position: absolute;
+  }
+}
+
+/* -------------------------------- */
+/* -----MAX-WIDTH: 896PX -----------*/
+/* ---------PRONTO----------------- */
+@media (max-width: 896.99px) {
+  .experiencia {
+    margin: 28px 22px;
+    /* background-color: cadetblue; */
   }
 
   .experiencia > .experiencia-titulo {
@@ -816,6 +944,79 @@
     position: absolute;
   }
 }
+
+
+/* -------------------------------- */
+/* -----MAX-WIDTH: 668PX -----------*/
+/* ------------PRONTO-------------------- */
+/* Exibição horizontal para celular Samsung A6 (mãe) */
+/* @media (min-width: 426px) and (max-width: 668.99px) { */
+  @media (max-width: 688.99px) {
+    .experiencia {
+      margin: -270px 8px;
+      height: 560px;
+    }
+  
+    .experiencia > .experiencia-titulo {
+      margin-top: -80px;
+      width: 240px;
+    }
+  
+    .experiencia > .experiencia-empresa-container {
+      margin-top: -120px;
+      margin-left: 70px;
+      width: 520px;
+    }
+  
+    .experiencia > .experiencia-empresa-container > .experiencia-empresa {
+      height: 180px;
+    }
+  
+    .experiencia
+      > .experiencia-empresa-container
+      > .experiencia-empresa
+      > .experiencia-ano {
+      left: -84px;
+      top: 14px;
+      font-size: 16px;
+    }
+  
+    .experiencia
+      > .experiencia-empresa-container
+      > .experiencia-empresa
+      > .experiencia-nome {
+      margin: -10px 0px 100px 20px;
+      font-size: 16px;
+    }
+  
+    .experiencia
+      > .experiencia-empresa-container
+      > .experiencia-empresa
+      > .experiencia-profissao {
+      margin-top: -120px;
+      font-size: 16px;
+    }
+  
+    .experiencia > .experiencia-empresa-container > .experiencia-empresa > ul {
+      margin: 24px 0 0 40px;
+      font-size: 14px;
+    }
+  
+    .experiencia > .experiencia-empresa > ul::before {
+      content: "";
+      display: block;
+      width: 14px;
+      height: 14px;
+      background: url("../imagens/decoracao/ellipse.svg") no-repeat center;
+      position: absolute;
+    }
+  }
+  
+
+
+
+
+
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 668PX -----------*/
@@ -1242,6 +1443,73 @@
 /* -----MAX-WIDTH: 393PX -----------*/
 
 @media (max-width: 393.99px) {
+  .experiencia {
+    margin: 10px 8px;
+    height: 708px;
+    width: 304px;
+    grid-template-columns: 1fr;
+  }
+
+  .experiencia > .experiencia-titulo {
+    margin-top: -120px;
+    margin-left: 10px;
+    width: 250px;
+  }
+
+  .experiencia > .experiencia-empresa-container {
+    width: 100%;
+  }
+
+  .experiencia > .experiencia-empresa-container > .experiencia-empresa {
+    height: 228px;
+  }
+
+  .experiencia
+    > .experiencia-empresa-container
+    > .experiencia-empresa
+    > .experiencia-ano {
+    display: none;
+  }
+
+  .experiencia
+    > .experiencia-empresa-container
+    > .experiencia-empresa
+    > .experiencia-nome {
+    margin: 10px 0px 100px 20px;
+    font-size: 18px;
+  }
+
+  .experiencia
+    > .experiencia-empresa-container
+    > .experiencia-empresa
+    > .experiencia-profissao {
+    display: block;
+    align-self: flex-start;
+    margin-top: -90px;
+    margin-left: 20px;
+    font-size: 16px;
+  }
+
+  .experiencia > .experiencia-empresa-container > .experiencia-empresa > ul {
+    margin: 10px 0 0 20px;
+    font-size: 14px;
+  }
+
+  .experiencia > .experiencia-empresa > ul::before {
+    content: "";
+    display: block;
+    width: 14px;
+    height: 14px;
+    background: url("../imagens/decoracao/ellipse.svg") no-repeat center;
+    position: absolute;
+  }
+}
+
+/* -------------------------------- */
+/* -----MAX-WIDTH: 375PX -----------*/
+/* -------- PRONTO ---------------- */
+
+@media (max-width: 375.99px) {
   .experiencia {
     margin: 10px 8px;
     height: 708px;
