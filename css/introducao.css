@@ -200,7 +200,7 @@
 
   .introducao > .objetivo > .objetivo-titulo {
     width: 232px;
-    margin: -10px 0 32px -108px;
+    margin: -2px 0 32px -108px;
   }
 
   .introducao > .objetivo > .objetivo-descricao {
@@ -209,7 +209,8 @@
   }
 
   .introducao > .objetivo > .local {
-    font-size: 1.375rem;
+    font-size: 24px;
+    margin-left: -86px;
   }
 
   .introducao .objetivo-descricao::before {

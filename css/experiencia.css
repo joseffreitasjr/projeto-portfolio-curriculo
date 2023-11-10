@@ -34,7 +34,7 @@
   grid-template-rows: repeat(3, 1fr);
   margin-top: -60px;
   margin-left: 236px;
-  width: 1300px;
+  width: 1400px;
   position: absolute;
 }
 
@@ -749,10 +749,10 @@
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 800PX -----------*/
-/* -------------------------------- */
+/* ----------PRONTO---------------- */
 @media (max-width: 800.99px) {
   .experiencia {
-    margin: 22px 23px;
+    margin: -230px 23px;
     height: 594px;
   }
 
@@ -763,7 +763,7 @@
   .experiencia > .experiencia-empresa-container {
     margin-top: -100px;
     margin-left: 110px;
-    width: 568px;
+    width: 558px;
   }
 
   .experiencia > .experiencia-empresa-container > .experiencia-empresa {
@@ -1354,10 +1354,8 @@
 @media (max-width: 414.99px) {
   .experiencia {
     max-width: 414px;
-    margin: -60px 8px;
+    margin: -2px 8px;
     height: 708px;
-    /* background-color: violet; */
-    /* border: 2px solid black; */
     grid-template-columns: 1fr;
   }
 
