@@ -520,6 +520,29 @@
 }
 
 /* -------------------------------- */
+/* -----MAX-WIDTH: 360PX -----------*/
+/* -------------------------------- */
+@media (max-width: 360px) {
+  .header {
+    padding: 12px;
+    margin: 8px;
+  }
+
+  .header img {
+    width: 320px;
+  }
+
+  .header-menu {
+    width: 280px;
+  }
+
+  .header-menu a {
+    font-size: 16px;
+    line-height: 1;
+  }
+}
+
+/* -------------------------------- */
 /* -----MAX-WIDTH: 320PX -----------*/
 /* -------------------------------- */
 @media (max-width: 320px) {

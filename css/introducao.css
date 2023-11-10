@@ -575,6 +575,7 @@
   .introducao {
     height: 250px;
     margin: 0 8px;
+    /* background-color: cadetblue; */
   }
 
   .introducao > .foto-perfil {
@@ -842,6 +843,44 @@
     display: none;
   }
 }
+
+
+/* -------------------------------- */
+/* -----MAX-WIDTH: 360PX -----------*/
+/* -------------------------------- */
+@media (max-width: 360.99px) {
+  .introducao {
+    height: 280px;
+    margin: 0px 8px;
+  }
+  .introducao > .foto-perfil {
+    display: none;
+  }
+
+  .introducao > .objetivo {
+    height: 220px;
+  }
+
+  .introducao > .objetivo > .objetivo-titulo {
+    width: 200px;
+    margin: 10px 0 4px 0;
+  }
+
+  .introducao > .objetivo > .objetivo-descricao {
+    font-size: 30px;
+  }
+
+  .introducao > .objetivo > .local {
+    font-size: 18px;
+  }
+
+  .introducao .objetivo-descricao::before {
+    display: none;
+  }
+}
+
+
+
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 320PX -----------*/
