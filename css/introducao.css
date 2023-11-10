@@ -346,6 +346,7 @@
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 846PX -----------*/
+/* -----------PRONTO--------------- */
 @media (max-width: 846.99px) {
   .introducao {
     height: 260px;
@@ -386,10 +387,6 @@
     left: -78px;
   }
 }
-
-
-
-
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 821PX -----------*/
@@ -487,7 +484,6 @@
   .introducao {
     height: 260px;
     margin: -10px 23px;
-    /* background-color: yellow; */
   }
 
   .introducao > .foto-perfil {
@@ -512,9 +508,9 @@
   }
 
   .introducao > .objetivo > .local {
-    font-size: 20px;
-    margin-top: 24px;
-    margin-left: 0;
+    font-size: 22px;
+    margin-top: 12px;
+    margin-left: -12px;
   }
 
   .introducao .objetivo-descricao::before {

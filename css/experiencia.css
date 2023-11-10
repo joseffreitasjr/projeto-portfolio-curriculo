@@ -817,7 +817,6 @@
   .experiencia {
     margin: 30px 20px;
     height: 588px;
-    /* background-color: darkgreen; */
   }
 
   .experiencia > .experiencia-titulo {
@@ -828,7 +827,7 @@
   .experiencia > .experiencia-empresa-container {
     margin-top: -100px;
     margin-left: 110px;
-    width: 560px;
+    width: 550px;
   }
 
   .experiencia > .experiencia-empresa-container > .experiencia-empresa {
@@ -1005,8 +1004,6 @@
     position: absolute;
   }
 }
-
-
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 720PX -----------*/
