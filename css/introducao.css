@@ -440,7 +440,8 @@
 @media (max-width: 800.99px) {
   .introducao {
     height: 260px;
-    margin: 0px 23px;
+    margin: 0px 20px;
+    width: 718px;
   }
 
   .introducao > .foto-perfil {
