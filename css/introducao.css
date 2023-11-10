@@ -5,9 +5,8 @@
 .introducao {
   display: flex;
   grid-area: introducao;
-  margin: 1.875rem;
-  height: 430px;
-  /* background-color: var(--cinza7); */
+  margin: 30px;
+  height: 428px;
 }
 
 .introducao > .foto-perfil {
@@ -26,7 +25,7 @@
 
 .introducao > .objetivo > .objetivo-titulo {
   width: 300px;
-  margin: -10px 0 32px -124px;
+  margin: 12px 0 32px -124px;
 }
 
 .introducao > .objetivo > .objetivo-descricao {
@@ -344,6 +343,54 @@
   }
 }
 
+
+/* -------------------------------- */
+/* -----MAX-WIDTH: 846PX -----------*/
+@media (max-width: 846.99px) {
+  .introducao {
+    height: 260px;
+    margin: 0 23px;
+  }
+
+  .introducao > .foto-perfil {
+    width: 336px;
+    height: 260px;
+  }
+
+  .introducao > .objetivo {
+    flex-wrap: nowrap;
+    height: 200px;
+    padding: 30px;
+  }
+
+  .introducao > .objetivo > .objetivo-titulo {
+    width: 200px;
+    margin: -10px 0 20px -6px;
+  }
+
+  .introducao > .objetivo > .objetivo-descricao {
+    font-size: 38px;
+    margin: 4px 0 0 36px;
+  }
+
+  .introducao > .objetivo > .local {
+    font-size: 22px;
+    margin-top: 16px;
+    margin-left: -12px;
+  }
+
+  .introducao .objetivo-descricao::before {
+    width: 100px;
+    height: 60px;
+    top: -6px;
+    left: -78px;
+  }
+}
+
+
+
+
+
 /* -------------------------------- */
 /* -----MAX-WIDTH: 821PX -----------*/
 /* ----------Tela deitada Samsung J8-------- */
@@ -512,6 +559,50 @@
     font-size: 1.1rem;
     margin-top: 24px;
     margin-left: 0;
+  }
+
+  .introducao .objetivo-descricao::before {
+    width: 100px;
+    height: 60px;
+    top: -10px;
+    left: -78px;
+  }
+}
+
+/* -------------------------------- */
+/* -----MAX-WIDTH: 740PX -----------*/
+/* ----------PRONTO---------------- */
+@media (max-width: 740.99px) {
+  .introducao {
+    height: 260px;
+    margin: 0 23px;
+  }
+
+  .introducao > .foto-perfil {
+    width: 336px;
+    height: 260px;
+  }
+
+  .introducao > .objetivo {
+    flex-wrap: nowrap;
+    height: 200px;
+    padding: 30px;
+  }
+
+  .introducao > .objetivo > .objetivo-titulo {
+    width: 192px;
+    margin: -10px 0 20px -6px;
+  }
+
+  .introducao > .objetivo > .objetivo-descricao {
+    font-size: 36px;
+    margin: 4px 0 0 36px;
+  }
+
+  .introducao > .objetivo > .local {
+    font-size: 22px;
+    margin-top: 12px;
+    /* margin-left: 0; */
   }
 
   .introducao .objetivo-descricao::before {

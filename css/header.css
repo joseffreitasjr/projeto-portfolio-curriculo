@@ -9,10 +9,11 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  margin: 2rem 2rem 0.125rem 2rem;
+  margin: 30px 30px 2px 30px;
 }
 
 .header img {
+  /* margin-left: -50px; */
   width: 43.75rem;
 }
 
@@ -57,9 +58,9 @@
 }
 
 /* -------------------------------- */
-/* -----MIN-WIDTH: 1921PX---- ------*/
+/* -----MIN-WIDTH: 1440PX---- ------*/
 /* ------------PRONTO-------------- */
-@media (min-width: 1440px) {
+@media (max-width: 1440px) {
   .header {
     padding: 20px;
     margin: 10px 60px;
@@ -199,6 +200,34 @@
 }
 
 /* -------------------------------- */
+/* -----MAX-WIDTH: 846PX -----------*/
+@media (max-width: 846.99px) {
+  .header {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 18px;
+    margin: 1.5rem;
+  }
+
+  .header img {
+    width: 380px;
+    padding: 4px;
+    margin-left: -8px;
+
+  }
+  .header-menu {
+    width: 320px;
+    margin-top: 0px;
+  }
+  .header-menu a {
+    font-size: 18px;
+    line-height: 1;
+  }
+}
+
+
+/* -------------------------------- */
 /* -----MAX-WIDTH: 821PX -----------*/
 /* -----Samsung J8 Tela Deitada---- */
 @media (max-width: 821.99px) {
@@ -308,6 +337,35 @@
   }
 }
 
+
+/* -------------------------------- */
+/* -----MAX-WIDTH: 740PX -----------*/
+/* -----------PRONTO--------------- */
+/* @media (min-width: 426px) and (max-width: 768px) { */
+@media (max-width: 740.99px) {
+  .header {
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 1.5rem;
+  }
+
+  .header img {
+    width: 500px;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  .header-menu {
+    width: 360px;
+  }
+  .header-menu a {
+    font-size: 20px;
+    line-height: 1;
+  }
+}
+
+
+
+
 /* -------------------------------- */
 /* -----MAX-WIDTH: 720PX -----------*/
 /* -------------------------------- */
@@ -352,8 +410,6 @@
 
   .header-menu {
     width: 380px;
-    /* margin-left: 8px; */
-    /* background-color: purple; */
   }
 
   .header-menu a {
@@ -364,9 +420,8 @@
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 668PX -----------*/
-/* ------------PRONTO-------------------- */
+/* ------------PRONTO-------------- */
 /* Exibição horizontal para celular Samsung A6 (mãe) */
-/* @media (min-width: 426px) and (max-width: 668.99px) { */
 @media (max-width: 668.99px) {
   .header {
     padding: 16px 6px;
@@ -392,13 +447,10 @@
 /* -------------------------------- */
 /* -----MAX-WIDTH: 425PX -----------*/
 /* ------------PRONTO-------------------- */
-/* Exibição para celular Samsung J8 */
-/* @media (min-width: 413px) and (max-width: 414.99px) {*/
 @media (max-width: 425.99px) {
   .header {
     padding: 18px 8px;
     margin: 8px;
-    /* background-color: yellowgreen; */
   }
 
   .header img {
@@ -419,13 +471,11 @@
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 414PX -----------*/
-/* ------------PRONTO-------------------- */
-/* Exibição para celular Samsung J8 */
+/* ------------PRONTO---------------*/
 @media (max-width: 414.99px) {
   .header {
     padding: 18px 8px;
     margin: 8px;
-    /* background-color: chocolate; */
   }
 
   .header img {
