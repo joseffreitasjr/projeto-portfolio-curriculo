@@ -344,6 +344,51 @@
   }
 }
 
+/* -------------------------------- */
+/* -----MAX-WIDTH: 851PX -----------*/
+/* -----------PRONTO--------------- */
+@media (max-width: 851.99px) {
+  .introducao {
+    height: 260px;
+    margin: 0 23px;
+  }
+
+  .introducao > .foto-perfil {
+    width: 336px;
+    height: 260px;
+  }
+
+  .introducao > .objetivo {
+    flex-wrap: nowrap;
+    height: 200px;
+    padding: 30px;
+  }
+
+  .introducao > .objetivo > .objetivo-titulo {
+    width: 200px;
+    margin: -10px 0 20px -6px;
+  }
+
+  .introducao > .objetivo > .objetivo-descricao {
+    font-size: 38px;
+    margin: 4px 0 0 36px;
+  }
+
+  .introducao > .objetivo > .local {
+    font-size: 22px;
+    margin-top: 16px;
+    margin-left: -12px;
+  }
+
+  .introducao .objetivo-descricao::before {
+    width: 100px;
+    height: 60px;
+    top: -6px;
+    left: -78px;
+  }
+}
+
+
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 846PX -----------*/

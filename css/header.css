@@ -199,6 +199,37 @@
   }
 }
 
+
+/* -------------------------------- */
+/* -----MAX-WIDTH: 851PX -----------*/
+/* ---------PRONTO----------------- */
+@media (max-width: 851.99px) {
+  .header {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 18px;
+    margin: 23px;
+    height: 120px;
+  }
+
+  .header img {
+    width: 440px;
+    padding: 4px;
+    margin-left: -8px;
+
+  }
+  .header-menu {
+    width: 420px;
+    margin-top: 10px;
+  }
+  .header-menu a {
+    font-size: 20px;
+    line-height: 1;
+  }
+}
+
+
 /* -------------------------------- */
 /* -----MAX-WIDTH: 846PX -----------*/
 /* ---------PRONTO----------------- */
