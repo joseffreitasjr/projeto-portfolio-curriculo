@@ -103,6 +103,30 @@
 }
 
 /* -------------------------------- */
+/* -----MAX-WIDTH: 1180PX---- ------*/
+/* -----------PRONTO--------------- */
+@media (max-width: 1180.99px) {
+  .header {
+    padding: 14px 18px;
+    margin: 25px;
+    max-width: 1180px;
+  }
+
+  .header img {
+    width: 540px;
+  }
+
+  .header-menu {
+    width: 392px
+  }
+
+  .header-menu a {
+    font-size: 22px;
+  }
+}
+
+
+/* -------------------------------- */
 /* -----MAX-WIDTH: 1024PX---- ------*/
 /* -----------PRONTO--------------- */
 @media (max-width: 1024.99px) {
@@ -228,7 +252,6 @@
     line-height: 1;
   }
 }
-
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 846PX -----------*/

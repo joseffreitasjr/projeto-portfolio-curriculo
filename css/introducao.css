@@ -138,6 +138,50 @@
 }
 
 /* -------------------------------- */
+/* -----MAX-WIDTH: 1180PX---- ------*/
+/* -------------------------------- */
+/* @media (min-width: 965px) and (max-width: 1024.99px) { */
+  @media (max-width: 1180.99px) {
+    .introducao {
+      margin: 0 25px;
+      max-width: 1180px;
+      height: 400px;
+    }
+  
+    .introducao > .foto-perfil {
+      width: 376px;
+      height: 400px;
+    }
+  
+    .introducao > .objetivo {
+      height: 340px;
+    }
+  
+    .introducao > .objetivo > .objetivo-titulo {
+      width: 288px;
+      margin: 4px 0 32px -108px;
+    }
+  
+    .introducao > .objetivo > .objetivo-descricao {
+      font-size: 50px;
+      margin-top: 18px;
+    }
+  
+    .introducao > .objetivo > .local {
+      font-size: 30px;
+      margin-top: -16px;
+      margin-left: -90px;
+    }
+  
+    .introducao .objetivo-descricao::before {
+      width: 110px;
+      height: 80px;
+      top: -10px;
+      left: -80px;
+    }
+  }
+
+/* -------------------------------- */
 /* -----MAX-WIDTH: 1031PX---- ------*/
 /* -------------------------------- */
 /* @media (min-width: 965px) and (max-width: 1024.99px) { */
@@ -182,7 +226,6 @@
 /* -------------------------------- */
 /* -----MAX-WIDTH: 1024PX---- ------*/
 /* -------------------------------- */
-/* @media (min-width: 965px) and (max-width: 1024.99px) { */
 @media (max-width: 1024.99px) {
   .introducao {
     margin: 0 25px;
@@ -387,8 +430,6 @@
     left: -78px;
   }
 }
-
-
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 846PX -----------*/
