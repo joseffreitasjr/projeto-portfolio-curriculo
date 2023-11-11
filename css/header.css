@@ -444,26 +444,26 @@
 /* -------------------------------- */
 /* -----MAX-WIDTH: 720PX -----------*/
 /* -------------------------------- */
-/* @media (min-width: 426px) and (max-width: 768px) { */
+
 @media (max-width: 720.99px) {
   .header {
-    flex-wrap: wrap;
-    padding: 10px;
-    margin: 1.5rem;
-    /* background-color: cadetblue; */
+    padding: 18px 20px;
+    flex-direction: column;
+    max-width: 480px;
+    height: 200px;
+    margin: 20px;
   }
 
-  .header img {
-    width: 30rem;
-    margin-bottom: 10px;
-    padding: 10px;
+  .header > img {
+    width: 600px;
+    margin-left: 2px;
   }
   .header-menu {
-    width: 21rem;
+    width: 356px;
     margin-left: 18px;
   }
   .header-menu a {
-    font-size: 1rem;
+    font-size: 22px;
     line-height: 1;
   }
 }

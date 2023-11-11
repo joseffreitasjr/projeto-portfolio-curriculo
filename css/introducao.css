@@ -745,10 +745,12 @@
 @media (max-width: 720.99px) {
   .introducao {
     height: 260px;
-    margin: 0 23px;
+    margin: 0 20px;
+    max-width: 520px;
   }
 
   .introducao > .foto-perfil {
+    display: none;
     width: 336px;
     height: 260px;
   }
@@ -761,25 +763,23 @@
 
   .introducao > .objetivo > .objetivo-titulo {
     width: 176px;
-    margin: -10px 0 20px -6px;
+    margin: -10px 0 20px 26px;
   }
 
   .introducao > .objetivo > .objetivo-descricao {
     font-size: 2.2rem;
     margin: 4px 0 0 36px;
+    text-align: center;
   }
 
   .introducao > .objetivo > .local {
     font-size: 1.1rem;
     margin-top: 24px;
-    margin-left: 0;
+    margin-left: 30px;
   }
 
   .introducao .objetivo-descricao::before {
-    width: 100px;
-    height: 60px;
-    top: -10px;
-    left: -78px;
+    display: none;
   }
 }
 
