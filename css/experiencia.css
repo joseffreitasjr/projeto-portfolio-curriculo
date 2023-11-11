@@ -677,6 +677,9 @@
   }
 }
 
+
+
+
 /* -------------------------------- */
 /* -----MAX-WIDTH: 821X -----------*/
 /* Tela deitada no Samsung */
@@ -749,9 +752,8 @@
 /* ----------PRONTO---------------- */
 @media (max-width: 800.99px) {
   .experiencia {
-    margin: -160px 20px;
+    margin: -230px 23px;
     height: 594px;
-    width: 676px;
   }
 
   .experiencia > .experiencia-titulo {
