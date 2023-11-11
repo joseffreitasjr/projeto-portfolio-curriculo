@@ -868,7 +868,7 @@
 @media (max-width: 393.99px) {
   .introducao {
     height: 310px;
-    margin: 0px 9px;
+    margin: 0px 10px;
   }
 
   .introducao > .foto-perfil {
@@ -889,7 +889,7 @@
   }
 
   .introducao > .objetivo > .local {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .introducao .objetivo-descricao::before {

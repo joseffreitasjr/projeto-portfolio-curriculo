@@ -1487,9 +1487,9 @@
 
 @media (max-width: 393.99px) {
   .experiencia {
-    margin: 10px 8px;
+    margin: 10px;
     height: 708px;
-    width: 304px;
+    width: 312px;
     grid-template-columns: 1fr;
   }
 

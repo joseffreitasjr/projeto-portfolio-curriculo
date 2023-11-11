@@ -520,6 +520,7 @@
 @media (max-width: 393.99px) {
   .header {
     padding: 16px 6px;
+    margin: 10px 6px;
   }
 
   .header img {
@@ -530,7 +531,7 @@
     width: 304px;
   }
   .header-menu a {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1;
   }
 }
