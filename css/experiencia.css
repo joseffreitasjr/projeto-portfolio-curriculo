@@ -491,33 +491,32 @@
 @media (max-width: 926.99px) {
   .experiencia {
     max-width: 806px;
-    margin: -90px 14px;
-    height: 840px;
-    background-color: cornflowerblue;
+    margin: 10px 14px;
+    height: 1040px;
   }
 
   .experiencia > .experiencia-titulo {
-    margin-top: -70px;
-    width: 290px;
+    margin-top: -100px;
+    width: 380px;
   }
 
   .experiencia > .experiencia-empresa-container {
-    margin-top: -100px;
-    margin-left: 110px;
-    width: 700px;
+    margin-top: -140px;
+    margin-left: 120px;
+    width: 680px;
   }
 
   .experiencia > .experiencia-empresa-container > .experiencia-empresa {
-    height: 240px;
+    height: 300px;
   }
 
   .experiencia
     > .experiencia-empresa-container
     > .experiencia-empresa
     > .experiencia-ano {
-    left: -112px;
+    left: -126px;
     top: 16px;
-    font-size: 22px;
+    font-size: 24px;
   }
 
   .experiencia
@@ -525,7 +524,7 @@
     > .experiencia-empresa
     > .experiencia-nome {
     margin: -10px 0px 100px 20px;
-    font-size: 22px;
+    font-size: 24px;
   }
 
   .experiencia
@@ -533,12 +532,12 @@
     > .experiencia-empresa
     > .experiencia-profissao {
     margin-top: -120px;
-    font-size: 22px;
+    font-size: 24px;
   }
 
   .experiencia > .experiencia-empresa-container > .experiencia-empresa > ul {
     margin: 24px 0 0 40px;
-    font-size: 20px;
+    font-size: 22px;
   }
 
   .experiencia > .experiencia-empresa > ul::before {
