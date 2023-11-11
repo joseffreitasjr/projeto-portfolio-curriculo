@@ -265,6 +265,50 @@
 }
 
 /* -------------------------------- */
+/* -----MAX-WIDTH: 926PX -----------*/
+/* ---------PRONTO ---------------- */
+@media (max-width: 926.99px) {
+  .introducao {
+    margin: 0px 14px;
+    max-width: 846px;
+    height: 330px;
+    background-color: indianred;
+  }
+
+  .introducao > .foto-perfil {
+    width: 356px;
+    height: 330px;
+  }
+
+  .introducao > .objetivo {
+    height: 290px;
+    padding: 20px;
+  }
+
+  .introducao > .objetivo > .objetivo-titulo {
+    width: 280px;
+    margin: 10px 20px 10px -46px;
+  }
+
+  .introducao > .objetivo > .objetivo-descricao {
+    font-size: 46px;
+  }
+
+  .introducao > .objetivo > .local {
+    font-size: 28px;
+    margin-top: -60px;
+    margin-left: -60px;
+  }
+
+  .introducao .objetivo-descricao::before {
+    width: 100px;
+    height: 70px;
+    top: -14px;
+    left: -78px;
+  }
+}
+
+/* -------------------------------- */
 /* -----MAX-WIDTH: 915PX -----------*/
 /* ---------PRONTO ---------------- */
 @media (max-width: 915.99px) {
@@ -831,6 +875,45 @@
     left: -72px;
   }
 }
+
+/* -------------------------------- */
+/* -----MAX-WIDTH: 428PX -----------*/
+/* ----------PRONTO---------------- */
+  @media (max-width: 428.99px) {
+    .introducao {
+      height: 310px;
+      margin: 0px 8px;
+    }
+    .introducao > .foto-perfil {
+      display: none;
+    }
+  
+    .introducao > .objetivo {
+      height: 290px;
+    }
+  
+    .introducao > .objetivo > .objetivo-titulo {
+      width: 220px;
+      margin: -2px 0 24px 0;
+    }
+  
+    .introducao > .objetivo > .objetivo-descricao {
+      font-size: 38px;
+      margin: 20px 0 0 0;
+      text-align: center;
+    }
+  
+    .introducao > .objetivo > .local {
+      font-size: 22px;
+      margin-top: 30px;
+    }
+  
+    .introducao .objetivo-descricao::before {
+      display: none;
+    }
+  }
+
+
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 425PX -----------*/

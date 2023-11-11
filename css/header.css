@@ -149,6 +149,31 @@
 }
 
 /* -------------------------------- */
+/* -----MAX-WIDTH: 926PX -----------*/
+/* ---------PRONTO----------------- */
+@media (max-width: 926.99px) {
+  .header {
+    padding: 10px 14px;
+    margin: 16px;
+    max-width: 816px;
+    background-color: blueviolet;
+  }
+
+  .header img {
+    width: 432px;
+  }
+
+  .header-menu {
+    width: 358px;
+    background-color: orange;
+  }
+
+  .header-menu a {
+    font-size: 22px;
+  }
+}
+
+/* -------------------------------- */
 /* -----MAX-WIDTH: 915PX -----------*/
 /* ---------PRONTO----------------- */
 @media (max-width: 915.99px) {
@@ -488,6 +513,31 @@
 
   .header-menu a {
     font-size: 1rem;
+    line-height: 1;
+  }
+}
+
+/* -------------------------------- */
+/* -----MAX-WIDTH: 428PX -----------*/
+/* ------------PRONTO-------------- */
+@media (max-width: 428.99px) {
+  .header {
+    padding: 18px 8px;
+    margin: 8px;
+  }
+
+  .header img {
+    width: 350px;
+    margin-left: -4px;
+  }
+
+  .header-menu {
+    width: 330px;
+    margin-left: -4px;
+  }
+
+  .header-menu a {
+    font-size: 20px;
     line-height: 1;
   }
 }
