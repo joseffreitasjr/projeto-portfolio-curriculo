@@ -10,9 +10,10 @@
   ;
   /* background-color: aqua; */
   height: 242vh;
-  margin: 10px;
+  /* margin: 10px; */
   /* width: 100%; */
   justify-content: center;
+  gap: 20px;
 }
 
 

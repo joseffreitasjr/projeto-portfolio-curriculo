@@ -12,106 +12,114 @@
     "experiencia-empresa experiencia-empresa"
     "experiencia-empresa experiencia-empresa"
     "experiencia-empresa experiencia-empresa";
-
+  max-width: 1920px;
   padding: 40px 20px;
-  margin: 0px 30px;
-  gap: 100px;
-  position: relative;
+  margin: 0px 20px;
   height: 740px;
 }
-
-.experiencia > .experiencia-titulo {
+.experiencia > .experiencia-container {
   grid-area: experiencia-titulo;
-  margin-top: -40px;
-  margin-left: 10px;
-  width: 400px;
-  justify-self: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 90px;
+}
+
+.experiencia > .experiencia-container > .experiencia-titulo {
+  grid-area: experiencia-titulo;
+  font-size: 80px;
+  color: var(--cinza3);
+  text-transform: uppercase;
   align-self: center;
 }
 
-.experiencia > .experiencia-empresa-container {
+.experiencia > .experiencia-container > .experiencia-empresa-container {
+  display: grid;
   grid-area: experiencia-empresa;
   grid-template-rows: repeat(3, 1fr);
-  margin-top: -60px;
-  margin-left: 236px;
-  width: 1400px;
+  margin-top: 160px;
+  margin-left: 160px;
+  max-width: 1579px;
+  width: 1819px;
   position: absolute;
 }
 
-.experiencia > .experiencia-empresa-container > .experiencia-empresa {
+.experiencia
+  > .experiencia-container
+  > .experiencia-empresa-container
+  > .experiencia-empresa {
   display: flex;
-  grid-area: 1 / 1 / 2 / 3;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: center;
   height: 200px;
 }
 
 .experiencia
+  > .experiencia-container
   > .experiencia-empresa-container
   > .experiencia-empresa
   > .experiencia-ano {
-  left: -108px;
-  top: 14px;
+  left: -122px;
   position: relative;
-  font-size: 20px;
+  font-size: 22px;
+  top: -16px;
 }
 
 .experiencia
+  > .experiencia-container
   > .experiencia-empresa-container
   > .experiencia-empresa:nth-child(odd) {
   background-color: var(--cinza1);
 }
 
 .experiencia
+  > .experiencia-container
   > .experiencia-empresa-container
   > .experiencia-empresa:nth-child(even) {
   background-color: var(--cinza3);
 }
 
 .experiencia
+  > .experiencia-container
   > .experiencia-empresa-container
   > .experiencia-empresa
   > .experiencia-nome {
-  margin: -10px 0px 30px 20px;
-  height: 20px;
+  margin: -40px 0px 30px 12px;
   color: var(--preto);
-  font-size: 22px;
-  font-style: normal;
+  font-size: 24px;
   font-weight: 700;
-  line-height: 32px;
 }
 
 .experiencia
+  > .experiencia-container
   > .experiencia-empresa-container
   > .experiencia-empresa
   > .experiencia-profissao {
   font-weight: 600;
-  height: 20px;
   align-self: flex-end;
-  margin: -50px 20px 0 0;
+  margin: -60px 20px 0px 0px;
   color: var(--preto);
-  font-size: 20px;
-  font-style: normal;
-  line-height: 32px;
+  font-size: 24px;
 }
 
-.experiencia > .experiencia-empresa-container > .experiencia-empresa > ul {
+.experiencia
+  > .experiencia-container
+  > .experiencia-empresa-container
+  > .experiencia-empresa
+  > ul {
   position: relative;
-  margin: 4px 25px;
-  line-height: 1.6;
+  margin: 4px 0px 4px 25px;
   color: var(--preto);
   font-size: 20px;
-  font-style: normal;
   font-weight: 400;
 }
 
-.experiencia > .experiencia-empresa > ul::before {
+.experiencia > .experiencia-container > .experiencia-empresa > ul::before {
   content: "";
   display: block;
   width: 14px;
   height: 14px;
-  background: url("../imagens/decoracao/ellipse.svg") no-repeat center;
+  background-image: url("../imagens/decoracao/ellipse.svg") no-repeat center;
   position: absolute;
 }
 
@@ -550,7 +558,6 @@
   }
 }
 
-
 /* -------------------------------- */
 /* -----MAX-WIDTH: 915PX -----------*/
 /* -------------------------------- */
@@ -616,7 +623,6 @@
   }
 }
 
-
 /* ------------------------------------ */
 /* --------MAX-WIDTH: 900PX ----------- */
 /* ------------------------------------ */
@@ -680,7 +686,6 @@
     position: absolute;
   }
 }
-
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 896PX -----------*/
@@ -746,7 +751,6 @@
   }
 }
 
-
 /* -------------------------------- */
 /* -----MAX-WIDTH: 851X -----------*/
 /* ----------PRONTO--------------- */
@@ -810,7 +814,6 @@
     position: absolute;
   }
 }
-
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 846X -----------*/
@@ -876,7 +879,6 @@
     position: absolute;
   }
 }
-
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 821X -----------*/
