@@ -7,36 +7,41 @@
   display: flex;
   grid-area: header;
   max-width: 1920px;
+  margin: 30px 30px 0px 30px;
   justify-content: space-between;
   align-items: center;
-  height: 121px;
-  padding: 20px;
-  margin: 20px 20px 0px 20px;
+  height: 140px;
+  background-color: chocolate;
 }
 
-.header img {
-  width: 800px;
+.header > .nome-completo {
+  font-size: 44px;
+  padding-left: 18px;
+  color: var(--cinza-13);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .header-menu {
   display: flex;
   grid-area: header;
   justify-content: space-evenly;
+  margin: 0px 30px 0px 0px;
+  gap: 10px;
   width: 600px;
   max-width: 600px;
 }
 
 .header-menu a {
   display: block;
-  font-size: 30px;
-  padding: 10px;
+  font-size: 28px;
+  padding: 20px;
   color: var(--cinza13);
 }
 
 /* -------------------------------- */
 /* -----MIN-WIDTH: 1921PX---- ------*/
 /* ------------PRONTO-------------- */
-@media (min-width: 1921px) {
+/* @media (min-width: 1921px) {
   .header {
     padding: 40px;
     margin: 3rem 3rem 0.125rem 3rem;
@@ -54,12 +59,12 @@
   .header-menu a {
     font-size: 2.7rem;
   }
-}
+} */
 
 /* -------------------------------- */
 /* -----MIN-WIDTH: 1440PX---- ------*/
 /* ------------PRONTO-------------- */
-@media (max-width: 1440px) {
+/* @media (max-width: 1440px) {
   .header {
     padding: 20px;
     margin: 10px 60px;
@@ -77,34 +82,12 @@
   .header-menu a {
     font-size: 26px;
   }
-}
-
-/* -------------------------------- */
-/* -----MAX-WIDTH: 1031PX---- ------*/
-/* -----------PRONTO--------------- */
-@media (max-width: 1031.99px) {
-  .header {
-    padding: 14px 18px;
-    margin: 25.6px;
-  }
-
-  .header img {
-    width: 32rem;
-  }
-
-  .header-menu {
-    width: 23rem;
-  }
-
-  .header-menu a {
-    font-size: 20px;
-  }
-}
+} */
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 1180PX---- ------*/
 /* -----------PRONTO--------------- */
-@media (max-width: 1180.99px) {
+/* @media (max-width: 1180.99px) {
   .header {
     padding: 14px 18px;
     margin: 25px;
@@ -122,13 +105,34 @@
   .header-menu a {
     font-size: 22px;
   }
-}
+} */
 
+/* -------------------------------- */
+/* -----MAX-WIDTH: 1031PX---- ------*/
+/* -----------PRONTO--------------- */
+/* @media (max-width: 1031.99px) {
+  .header {
+    padding: 14px 18px;
+    margin: 25.6px;
+  }
+
+  .header img {
+    width: 32rem;
+  }
+
+  .header-menu {
+    width: 23rem;
+  }
+
+  .header-menu a {
+    font-size: 20px;
+  }
+} */
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 1024PX---- ------*/
 /* -----------PRONTO--------------- */
-@media (max-width: 1024.99px) {
+/* @media (max-width: 1024.99px) {
   .header {
     padding: 10px 18px;
     margin: 25.6px;
@@ -145,12 +149,12 @@
   .header-menu a {
     font-size: 1.2rem;
   }
-}
+} */
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 926PX -----------*/
 /* ---------PRONTO----------------- */
-@media (max-width: 926.99px) {
+/* @media (max-width: 926.99px) {
   .header {
     padding: 10px 14px;
     flex-direction: column;
@@ -172,12 +176,12 @@
   .header-menu a {
     font-size: 26px;
   }
-}
+} */
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 915PX -----------*/
 /* ---------PRONTO----------------- */
-@media (max-width: 915.99px) {
+/* @media (max-width: 915.99px) {
   .header {
     padding: 10px 18px;
     margin: 22px;
@@ -194,13 +198,13 @@
   .header-menu a {
     font-size: 1.25rem;
   }
-}
+} */
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 900PX -----------*/
 /* Tela deitada no Samsung */
 /* -------------------------------- */
-@media (max-width: 900.99px) {
+/* @media (max-width: 900.99px) {
   .header {
     flex-wrap: wrap;
     padding: 10px 18px;
@@ -214,24 +218,24 @@
 
   .header-menu {
     width: 30rem;
-    /* background-color: yellowgreen; */
+    /* background-color: yellowgreen; 
   }
 
   .header-menu a {
     font-size: 20px;
   }
-}
+} */
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 896PX -----------*/
 /* -------------------------------- */
-@media (max-width: 896.99px) {
+/* @media (max-width: 896.99px) {
   .header {
     flex-wrap: wrap;
     padding: 10px 18px;
     margin: 22px;
     justify-content: center;
-    /* background-color: chocolate; */
+    /* background-color: chocolate; 
   }
 
   .header img {
@@ -247,13 +251,12 @@
   .header-menu a {
     font-size: 20px;
   }
-}
-
+} */
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 851PX -----------*/
 /* ---------PRONTO----------------- */
-@media (max-width: 851.99px) {
+/* @media (max-width: 851.99px) {
   .header {
     flex-wrap: wrap;
     justify-content: center;
@@ -277,12 +280,12 @@
     font-size: 20px;
     line-height: 1;
   }
-}
+} */
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 846PX -----------*/
 /* ---------PRONTO----------------- */
-@media (max-width: 846.99px) {
+/* @media (max-width: 846.99px) {
   .header {
     flex-wrap: nowrap;
     justify-content: space-between;
@@ -305,41 +308,40 @@
     font-size: 18px;
     line-height: 1;
   }
-}
-
+} */
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 821PX -----------*/
 /* -----Samsung J8 Tela Deitada---- */
-@media (max-width: 821.99px) {
+/* @media (max-width: 821.99px) {
   .header {
     flex-wrap: nowrap;
     justify-content: space-evenly;
     padding: 10px 18px;
     margin: 1.5rem;
-    /* background-color: cadetblue; */
+    /* background-color: cadetblue; 
   }
 
   .header img {
     width: 360px;
-    /* margin-bottom: 10px; */
+    /* margin-bottom: 10px; 
     margin-left: 8px;
   }
   .header-menu {
     width: 320px;
-    /* margin-left: 30px; */
-    /* background-color: chocolate; */
+    /* margin-left: 30px; 
+    /* background-color: chocolate; 
   }
   .header-menu a {
     font-size: 18px;
     line-height: 1;
   }
-}
+} */
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 800PX -----------*/
 /* --------------PRONTO------------ */
-@media (max-width: 800.99px) {
+/* @media (max-width: 800.99px) {
   .header {
     flex-wrap: wrap;
     padding: 10px 18px;
@@ -349,7 +351,6 @@
   .header img {
     width: 520px;
     padding: 20px;
-    /* margin-bottom: 10px; */
     margin-left: 8px;
   }
   .header-menu {
@@ -360,12 +361,12 @@
     font-size: 22px;
     line-height: 1;
   }
-}
+} */
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 786PX -----------*/
 /* --------------PRONTO------------ */
-@media (max-width: 786.99px) {
+/* @media (max-width: 786.99px) {
   .header {
     flex-wrap: wrap;
     padding: 10px 18px;
@@ -385,13 +386,13 @@
     font-size: 20px;
     line-height: 1;
   }
-}
+} */
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 768PX -----------*/
 /* -------------------------------- */
 /* @media (min-width: 426px) and (max-width: 768px) { */
-@media (max-width: 768.99px) {
+/* @media (max-width: 768.99px) {
   .header {
     flex-wrap: wrap;
     justify-content: center;
@@ -413,13 +414,12 @@
     font-size: 1rem;
     line-height: 1;
   }
-}
-
+} */
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 740PX -----------*/
 /* -----------PRONTO--------------- */
-@media (max-width: 740.99px) {
+/* @media (max-width: 740.99px) {
   .header {
     flex-wrap: wrap;
     padding: 10px;
@@ -438,13 +438,13 @@
     font-size: 20px;
     line-height: 1;
   }
-}
+} */
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 720PX -----------*/
 /* -------------------------------- */
 
-@media (max-width: 720.99px) {
+/* @media (max-width: 720.99px) {
   .header {
     padding: 18px 20px;
     flex-direction: column;
@@ -465,13 +465,13 @@
     font-size: 22px;
     line-height: 1;
   }
-}
+} */
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 688PX -----------*/
 /* ------------PRONTO-------------------- */
 /* Exibição horizontal para celular Samsung A6 (mãe) */
-@media (max-width: 688.99px) {
+/* @media (max-width: 688.99px) {
   .header {
     padding: 16px 6px;
     margin: 8px;
@@ -490,13 +490,13 @@
     font-size: 20px;
     line-height: 1;
   }
-}
+} */
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 668PX -----------*/
 /* ------------PRONTO-------------- */
 /* Exibição horizontal para celular Samsung A6 (mãe) */
-@media (max-width: 668.99px) {
+/* @media (max-width: 668.99px) {
   .header {
     padding: 16px 6px;
     margin: 8px;
@@ -516,12 +516,12 @@
     font-size: 1rem;
     line-height: 1;
   }
-}
+} */
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 428PX -----------*/
 /* ------------PRONTO-------------- */
-@media (max-width: 428.99px) {
+/* @media (max-width: 428.99px) {
   .header {
     padding: 18px 8px;
     flex-direction: column;
@@ -546,12 +546,12 @@
     font-size: 20px;
     line-height: 1;
   }
-}
+} */
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 425PX -----------*/
 /* ------------PRONTO-------------------- */
-@media (max-width: 425.99px) {
+/* @media (max-width: 425.99px) {
   .header {
     padding: 18px 8px;
     margin: 8px;
@@ -571,12 +571,12 @@
     font-size: 1rem;
     line-height: 1;
   }
-}
+} */
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 414PX -----------*/
 /* ------------PRONTO---------------*/
-@media (max-width: 414.99px) {
+/* @media (max-width: 414.99px) {
   .header {
     padding: 18px 8px;
     margin: 8px;
@@ -596,13 +596,13 @@
     font-size: 1rem;
     line-height: 1;
   }
-}
+} */
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 412PX -----------*/
 /* ------------PRONTO-------------------- */
 /* Exibição para celular de pé Samsung J8 */
-@media (max-width: 412.99px) {
+/* @media (max-width: 412.99px) {
   .header {
     padding: 18px 8px;
     margin: 8px;
@@ -622,12 +622,12 @@
     font-size: 1rem;
     line-height: 1;
   }
-}
+} */
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 393PX -----------*/
 /* -----------PRONTO--------------- */
-@media (max-width: 393.99px) {
+/* @media (max-width: 393.99px) {
   .header {
     padding: 16px 6px;
     margin: 10px 6px;
@@ -644,16 +644,16 @@
     font-size: 18px;
     line-height: 1;
   }
-}
+} */
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 375PX -----------*/
 /* -------------------------------- */
-@media (max-width: 375.99px) {
+/* @media (max-width: 375.99px) {
   .header {
     padding: 16px 6px;
     margin: 10px;
-    /* background-color: cadetblue; */
+    /* background-color: cadetblue; 
     justify-content: center;
     height: 140px;
   }
@@ -666,18 +666,18 @@
     width: 290px;
     margin: 0 4px;
     padding: 20px;
-    /* background-color: brown; */
+    /* background-color: brown; 
   }
   .header-menu a {
     font-size: 17px;
     line-height: 1;
   }
-}
+} */
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 360PX -----------*/
 /* -------------------------------- */
-@media (max-width: 360px) {
+/* @media (max-width: 360px) {
   .header {
     padding: 12px;
     margin: 8px;
@@ -695,12 +695,12 @@
     font-size: 16px;
     line-height: 1;
   }
-}
+} */
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 320PX -----------*/
 /* -------------------------------- */
-@media (max-width: 320px) {
+/* @media (max-width: 320px) {
   .header {
     padding: 15px 10px;
     margin: 8px;
@@ -718,4 +718,4 @@
     font-size: 0.88rem;
     line-height: 1;
   }
-}
+} */

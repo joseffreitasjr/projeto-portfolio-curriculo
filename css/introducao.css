@@ -5,54 +5,65 @@
 .introducao {
   display: flex;
   grid-area: introducao;
-  max-width: 1920px;
-  margin: 0 20px;
-  height: 528px;
+  justify-content: flex-start;
+  max-width: 1200px;
+  margin: 0px 30px;
+  height: 488px;
+  background-color: cadetblue;
 }
 
 .introducao > .foto-perfil {
-  width: 506px;
-  height: 528px;
+  width: 494px;
+  height: 488px;
 }
 
 .introducao > .objetivo {
   display: flex;
-  max-width: 1353px;
+  max-width: 966px;
+  width: 1552px;
   flex-direction: column;
+  height: 488px;
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
-  text-align: center;
-  gap: 90px;
-  width: 1353px;
+  gap: 70px;
 }
 
 .introducao > .objetivo > .objetivo-titulo {
-  font-size: 100px;
+  font-size: 56px;
   text-transform: uppercase;
   color: var(--cinza3);
-
 }
 
 .introducao > .objetivo > .objetivo-descricao {
   position: relative;
-  font-size: 56px;
+  font-size: 60px;
   color: var(--cinza12);
 }
 
 .introducao > .objetivo > .local {
-  font-size: 30px;
+  font-size: 24px;
   color: var(--cinza10);
+}
+
+.introducao > .objetivo > .objetivo-descricao::before {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 12px;
+  left: -52px;
+  background: url("../imagens/decoracao/tags.svg") center no-repeat;
 }
 
 /* -------------------------------- */
 /* -----MIN-WIDTH: 1921PX---- ------*/
 /* -------------------------------- */
-@media (min-width: 1921px) {
+/* @media (min-width: 1921px) {
   .introducao {
     margin: 48px;
     height: 630px;
-    /* background-color: blue; */
+    /* background-color: blue; 
   }
 
   .introducao > .foto-perfil {
@@ -85,12 +96,12 @@
   .introducao .objetivo-descricao::before {
     display: none;
   }
-}
+} */
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 1440PX---- ------*/
 /* ---------PRONTO----------------- */
-@media (max-width: 1440.99px) {
+/* @media (max-width: 1440.99px) {
   .introducao {
     margin: 0 60px;
     height: 400px;
@@ -126,13 +137,13 @@
     top: -14px;
     left: -80px;
   }
-}
+} */
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 1180PX---- ------*/
 /* -------------------------------- */
 /* @media (min-width: 965px) and (max-width: 1024.99px) { */
-  @media (max-width: 1180.99px) {
+/* @media (max-width: 1180.99px) {
     .introducao {
       margin: 0 25px;
       max-width: 1180px;
@@ -170,13 +181,13 @@
       top: -10px;
       left: -80px;
     }
-  }
+  } */
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 1031PX---- ------*/
 /* -------------------------------- */
 /* @media (min-width: 965px) and (max-width: 1024.99px) { */
-@media (max-width: 1031.99px) {
+/* @media (max-width: 1031.99px) {
   .introducao {
     margin: 0 25px;
     height: 400px;
@@ -212,12 +223,12 @@
     top: -14px;
     left: -80px;
   }
-}
+} */
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 1024PX---- ------*/
 /* -------------------------------- */
-@media (max-width: 1024.99px) {
+/* @media (max-width: 1024.99px) {
   .introducao {
     margin: 0 25px;
     height: 400px;
@@ -253,12 +264,12 @@
     top: -14px;
     left: -80px;
   }
-}
+} */
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 926PX -----------*/
 /* ---------PRONTO ---------------- */
-@media (max-width: 926.99px) {
+/* @media (max-width: 926.99px) {
   .introducao {
     margin: 0px 14px;
     max-width: 846px;
@@ -296,12 +307,12 @@
     top: -14px;
     left: -78px;
   }
-}
+} */
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 915PX -----------*/
 /* ---------PRONTO ---------------- */
-@media (max-width: 915.99px) {
+/* @media (max-width: 915.99px) {
   .introducao {
     margin: 0px 22px;
     height: 330px;
@@ -337,12 +348,12 @@
     top: -14px;
     left: -78px;
   }
-}
+} */
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 900PX -----------*/
 /* -------------------------------- */
-@media (max-width: 900.99px) {
+/* @media (max-width: 900.99px) {
   .introducao {
     margin: 0px 22px;
     height: 330px;
@@ -378,12 +389,12 @@
     top: -14px;
     left: -78px;
   }
-}
+} */
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 896PX -----------*/
 /* -----------PRONTO--------------- */
-@media (max-width: 896.99px) {
+/* @media (max-width: 896.99px) {
   .introducao {
     margin: 0px 22px;
     height: 330px;
@@ -419,12 +430,12 @@
     top: -14px;
     left: -78px;
   }
-}
+} */
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 851PX -----------*/
 /* -----------PRONTO--------------- */
-@media (max-width: 851.99px) {
+/* @media (max-width: 851.99px) {
   .introducao {
     height: 260px;
     margin: 0 23px;
@@ -463,12 +474,12 @@
     top: -6px;
     left: -78px;
   }
-}
+} */
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 846PX -----------*/
 /* -----------PRONTO--------------- */
-@media (max-width: 846.99px) {
+/* @media (max-width: 846.99px) {
   .introducao {
     height: 260px;
     margin: 0 23px;
@@ -507,13 +518,13 @@
     top: -6px;
     left: -78px;
   }
-}
+} */
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 821PX -----------*/
 /* ----------Tela deitada Samsung J8-------- */
 /* ----------PRONTO---------------------- */
-@media (max-width: 821.99px) {
+/* @media (max-width: 821.99px) {
   .introducao {
     height: 260px;
     margin: 0 23px;
@@ -552,12 +563,12 @@
     top: -10px;
     left: -78px;
   }
-}
+} */
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 800PX -----------*/
 /* ----------- PRONTO ------------- */
-@media (max-width: 800.99px) {
+/* @media (max-width: 800.99px) {
   .introducao {
     height: 260px;
     margin: 0px 23px;
@@ -596,12 +607,12 @@
     top: -4px;
     left: -74px;
   }
-}
+} */
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 786PX -----------*/
 /* ----------- PRONTO ------------- */
-@media (max-width: 786.99px) {
+/* @media (max-width: 786.99px) {
   .introducao {
     height: 260px;
     margin: -10px 23px;
@@ -640,12 +651,12 @@
     top: -8px;
     left: -78px;
   }
-}
+} */
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 768PX -----------*/
 /* -------------------------------- */
-@media (max-width: 768.99px) {
+/* @media (max-width: 768.99px) {
   .introducao {
     height: 260px;
     margin: 0 23px;
@@ -684,12 +695,12 @@
     top: -10px;
     left: -78px;
   }
-}
+} */
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 740PX -----------*/
 /* ----------PRONTO---------------- */
-@media (max-width: 740.99px) {
+/* @media (max-width: 740.99px) {
   .introducao {
     height: 260px;
     margin: 0 23px;
@@ -719,7 +730,7 @@
   .introducao > .objetivo > .local {
     font-size: 22px;
     margin-top: 12px;
-    /* margin-left: 0; */
+    /* margin-left: 0; 
   }
 
   .introducao .objetivo-descricao::before {
@@ -728,12 +739,12 @@
     top: -10px;
     left: -78px;
   }
-}
+} */
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 720PX -----------*/
 /* -------------------------------- */
-@media (max-width: 720.99px) {
+/* @media (max-width: 720.99px) {
   .introducao {
     height: 260px;
     margin: 0 20px;
@@ -772,18 +783,18 @@
   .introducao .objetivo-descricao::before {
     display: none;
   }
-}
+} */
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 688PX -----------*/
 /* -------------------------------- */
 /* Exibição horizontal para celular Samsung A6 (mãe) */
 /* @media (min-width: 426px) and (max-width: 668.99px) { */
-@media (max-width: 688.99px) {
+/* @media (max-width: 688.99px) {
   .introducao {
     height: 250px;
     margin: 0 8px;
-    /* background-color: cadetblue; */
+    /* background-color: cadetblue; *
   }
 
   .introducao > .foto-perfil {
@@ -818,14 +829,14 @@
     top: -8px;
     left: -72px;
   }
-}
+} */
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 668PX -----------*/
 /* ------------PRONTO-------------------- */
 /* Exibição horizontal para celular Samsung A6 (mãe) */
 /* @media (min-width: 426px) and (max-width: 668.99px) { */
-@media (max-width: 668.99px) {
+/* @media (max-width: 668.99px) {
   .introducao {
     height: 250px;
     margin: 0 8px;
@@ -864,12 +875,12 @@
     top: -8px;
     left: -72px;
   }
-}
+} */
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 428PX -----------*/
 /* ----------PRONTO---------------- */
-  @media (max-width: 428.99px) {
+/* @media (max-width: 428.99px) {
     .introducao {
       height: 310px;
       margin: 0px 8px;
@@ -901,15 +912,13 @@
     .introducao .objetivo-descricao::before {
       display: none;
     }
-  }
-
-
+  } */
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 425PX -----------*/
 /* ------------PRONTO-------------------- */
 /* @media (min-width: 376px) and (max-width: 425.99px) { */
-@media (max-width: 425.99px) {
+/* @media (max-width: 425.99px) {
   .introducao {
     height: 310px;
     margin: 0px 8px;
@@ -941,14 +950,14 @@
   .introducao .objetivo-descricao::before {
     display: none;
   }
-}
+} */
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 414PX -----------*/
 /* ------------PRONTO-------------------- */
 /* Exibição para celular Samsung J8 */
 /* @media (min-width: 413px) and (max-width: 414.99px) { */
-@media (max-width: 414.99px) {
+/* @media (max-width: 414.99px) {
   .introducao {
     height: 310px;
     margin: 0px 8px;
@@ -980,17 +989,17 @@
   .introducao .objetivo-descricao::before {
     display: none;
   }
-}
+} */
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 412PX -----------*/
 /* ------------PRONTO-------------------- */
 /* Exibição para celular de pé Samsung J8 */
-@media (max-width: 412.99px) {
+/* @media (max-width: 412.99px) {
   .introducao {
     height: 310px;
     margin: 0px 8px;
-    /* border: 2px solid black; */
+    /* border: 2px solid black; 
   }
   .introducao > .foto-perfil {
     display: none;
@@ -1019,12 +1028,12 @@
   .introducao .objetivo-descricao::before {
     display: none;
   }
-}
+} */
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 393PX -----------*/
 /* -------------------------------- */
-@media (max-width: 393.99px) {
+/* @media (max-width: 393.99px) {
   .introducao {
     height: 310px;
     margin: 0px 10px;
@@ -1054,12 +1063,12 @@
   .introducao .objetivo-descricao::before {
     display: none;
   }
-}
+} */
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 375PX -----------*/
 /* -------------------------------- */
-@media (max-width: 375.99px) {
+/* @media (max-width: 375.99px) {
   .introducao {
     height: 310px;
     margin: 0px 10px;
@@ -1089,13 +1098,12 @@
   .introducao .objetivo-descricao::before {
     display: none;
   }
-}
-
+} */
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 360PX -----------*/
 /* -------------------------------- */
-@media (max-width: 360.99px) {
+/* @media (max-width: 360.99px) {
   .introducao {
     height: 280px;
     margin: 0px 8px;
@@ -1124,15 +1132,12 @@
   .introducao .objetivo-descricao::before {
     display: none;
   }
-}
-
-
-
+} */
 
 /* -------------------------------- */
 /* -----MAX-WIDTH: 320PX -----------*/
 /* -------------------------------- */
-@media (max-width: 320.99px) {
+/* @media (max-width: 320.99px) {
   .introducao {
     height: 280px;
     margin: 0px 8px;
@@ -1161,4 +1166,4 @@
   .introducao .objetivo-descricao::before {
     display: none;
   }
-}
+} */
